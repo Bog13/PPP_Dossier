@@ -1,0 +1,84 @@
+INTERVIEW Chris_Wot
+
+<{bog}> hi ! Thank you !
+<chris_wot> what did you want to know?
+<{bog}> First i am a computer science student and I looking for information about free software dev
+<{bog}> I want to work in that domain but I don't know what type of job exists with the free software philosophy 
+<chris_wot> it depends - to get paid to do free software you really need to find a place that is getting paid for support
+<{bog}> My first question would be: Who are you ? A libreoffice developer's ? (Can you introduce yourself ?)
+<chris_wot> I'm a LibreOffice developer who's about to take up a paid contract with Collabora
+<chris_wot> I've been working on LO for about a year now, on and off
+<chris_wot> doing a lot of reading and refactoring
+<chris_wot> getting to know folks on IRC gradually
+<{bog}> For you which domain of computer science are the more concerned by the free software dev ?
+<chris_wot> coding and testing
+<chris_wot> that's a big question :-)
+<chris_wot> do you mean, what aspect of software am I interested in?
+<chris_wot> like application software, frameworks, operating systems, etc?
+<{bog}> Yes :)
+<chris_wot> well, for now I am interested in application software, but that's a large area
+<chris_wot> I'm currently focusing on the widget layer of LO, called VCL
+<{bog}> Can you explain me how did you step in the free software dev ?
+<chris_wot> I started by reading the code after seeing a post about LO on Hacker News
+<{bog}> And what advices you would give to a student who wants to work in free software dev ?
+<chris_wot> for me, I looked for the entry point of LO (the main function). Then I traced through the code and eventually started making some small changes after working out how to setup the build tools
+<chris_wot> sure, a big enough free software project takes time to understand
+<chris_wot> the very first thing is to work out how to get the source code, and work out how to build it
+<chris_wot> then I'd read all the documentation you can find, and be prepared to do a LOT of code reading
+<chris_wot> work out if there are any easy changes you can make, like typos in comments, silly mistakes that can be fixed
+<chris_wot> make those changes then work out how to get those changes integrated into the core product
+<chris_wot> some projects like LO make it easy (e.g. we use gerrit)
+<chris_wot> other projects it's quite hard
+<chris_wot> be prepared to write a document about what you find, even if you use it only for yourself
+<chris_wot> lurk on IRC for a while and try to gradually ask questions and show you are working on issues
+<chris_wot> but if you ask a question on IRC on a dev channel, always explain that you have read the documentation and that it wasn't clear, could someone clarify
+<chris_wot> otherwise you might be mildly flamed :-)
+<chris_wot> but above all, be prepared to take on feedback, and be prepared to go outside your comfort zone
+<chris_wot> and learn how to use git properly :-)
+<{bog}> what do you mind when you say " go outside your comfort zone" ? :)
+<chris_wot> try stuff on your local machine - be willing to make mistakes
+<chris_wot> look at areas you don't understand - sometimes you'll need to read up on odd things
+<chris_wot> for instance, I'm currently reading all the EMF specs from Microsoft so that I can get drawing in documents working
+<chris_wot> don't be afraid to break stuff on your local workstation - if you branch code in git, it's very hard to go wrong as you can checkout the master branch and start a new branch
+<{bog}> Is LO development your main job ?
+<chris_wot> it will be shortly :-)
+<chris_wot> but before this I've worked in a variety of jobs
+<{bog}> A variety of jobs in computer science 's field ?
+<chris_wot> more IT than computer science
+<{bog}> did you work with free softwares ?
+<chris_wot> I was a support person, a senior software troubleshooter for a VMWare product, stuff like that
+<chris_wot> I did a few things
+<chris_wot> not much really, but I helped troubleshoot some nasty bugs in Firefox
+<chris_wot> however, I've been involved in free culture projects, like Wikipedia
+<chris_wot> at one time at a reasonably influential level
+<{bog}> So now you need to have another job ?
+<{bog}> I  only want to work with free software. So the main issues is: what kind of jobs can I choose to get paid and to develop free software ?
+<chris_wot> do you want to develop free software?
+<chris_wot> not many projects are monetized
+<chris_wot> but you can get roles being a sysadmin and contribute to free software
+<{bog}> Yes I would like to. I don't really know what is a sysadmin, can you explain me what does a sysadmin do ?
+<chris_wot> looks after computer systems :-)
+<chris_wot> server admin work normally
+<chris_wot> basically, you need to find an itch and scratch it
+<chris_wot> my interest was LO
+<chris_wot> there is no silver bullet, I'm getting paid because there is demand for my skills and I did a lot of dedicated work and proved my skills to the other developers over a long period of time
+<{bog}> DSo you work from home ?
+<{bog}> *So
+<chris_wot> yep, I live in Australia and most of the rest of the devs in the company I work for are in Europe or in the UK
+<{bog}> Will you earn money when you will be working exclusively for LO ?
+<chris_wot> I might do some side jobs, the job only lasts for 2 months so far
+<{bog}> So you will always need to have side jobs ? In your sides jobs do you use free software ?
+<chris_wot> to be honest, this is my first paid gig as a free software developer
+<chris_wot> but I suspect that this will be the case
+<chris_wot> then again, I have a lot of freedom in this role that I can't get at a normal workplace
+<chris_wot> I can take my kids to school in the morning, do chores, no micro-managing, that sort of thing
+<{bog}> Do you have to change your side jobs frequently ?
+<chris_wot> actually, I took on this role when I was made redundant
+<chris_wot> I got a good payout
+<chris_wot> anyhow... I gotta get some coding done - hope I was helpful :-)
+<{bog}> You were helpful :)
+<{bog}> thank you very much :D
+<{bog}> (And sorry for my bad english ^^ )
+<chris_wot> no probs :-) best of luck
+<chris_wot> not at all, you were fine :-)
+<{bog}> ty ! :D

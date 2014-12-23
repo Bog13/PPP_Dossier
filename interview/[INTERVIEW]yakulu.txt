@@ -1,0 +1,125 @@
+INTERVIEW Yakulu
+
+PARTIE 1
+
+<{bog}> Bonjour !
+<{bog}> Je prépare un dossier dans le cadre de mes études et j'aimerais discuter dix petites minutes avec un développeur ^^  
+* paulk-collins (~paulk@gagarine.paulk.fr) a rejoint #framasoft
+<{bog}> Je m'intéresse au libre et j'aimerais en faire mon métier mais je connais peu le domaine et j'aimerais connaître mes possibilités.
+<{bog}> Quelqu'un qui travail dans le domaine du libre pour m'éclairer ?
+<Yakulu> {bog}: que veux tu savoir ?
+<{bog}> Comme j'aimerais faire du libre mon métier j'aimerais avoir un retour d'expérience d'un developpeur ayant fait ce parcours
+<Yakulu> en fait ça dépend du contexte : tu veux te lancer à ton compte, trouver du travail ?
+<Yakulu> tu souhaites créer du logiciel libre ou contribuer ou seulement utiliser ?
+<Yakulu> aujourd'hui 90%, au moins, des agences Web, la plupart des sociétés d'informatique, emploient du logiciel libre mais rarement exclusivement
+<{bog}> Utiliser c'est sûr et certain. Contribuer et créer me conviennent tous deux 
+<Yakulu> et très rarement contribuent
+<Yakulu> il y a des ENL (entreprise du numérique libres), parfois regroupées en clusters régionaux, qui sont sensées faire majoritairement du logiciel libre et contribuer
+<Yakulu> le cnll les regroupe : http://www.cnll.fr/
+<Yakulu> y en a dans à peu près toutes les régions
+<Yakulu> il y a des sociétés qui sont adhérentes à l'april, à des groupes d'utilisateurs locaux qui font souvent du libre
+<Yakulu> en somme, tu peux très bien faire du développement, Web ou pas, et te faire recrutrer par ce genre de société
+* kiki1102 (~kiki1102@2607:5300:60:2b76::1) a rejoint #framasoft
+<kiki1102> salut
+<Yakulu> y a même un site d'offres d'emplois spécialisée sur du logiciel libre (mais il n'est clairement pas exhaustif) : http://fr.lolix.org/
+<Yakulu> salut kiki1102
+<{bog}> en fait moi je m'intéresse au developpement logiciel mais je ne veux pas travailler avec des outils propriétaires par choix personnel
+<{bog}> (salut !)
+<Yakulu> honnêtement, si c'est surtout une histoire d'environnement de travail, tu peux trouver même dans des société squi ne font pas spécifiquement du libre
+<Yakulu> faire du logiciel libre, y contribuer dans son métier est un peu plus difficile, car il y a peu de sociétés, dans la globalité, qui contribuent (alors que beaucoup utilisent)
+<Yakulu> mais si tu as compétent, il n'y a aucune raison que tu ne trouves pas dans une société spécialisée en logiciels libres
+<Yakulu> les bons développeurs restent une ressource rare, dont appréciée ;)
+<{bog}> Après moi je m'intéresse particulièrement à l'intelligence artificielle, à la logique et au jeu vidéo
+<Yakulu> après ça dépendra notamment du lieu où tu vis, des technologies sur lesquelles tu vas te former et te spécialiser
+<Yakulu> je connais pas très bien ces domaines, mais intuitivement je penserais que tu as plus de chances de trouver un environnement libre voire d'y contribuer en IA qu'en jeu vidéo
+<{bog}> pour mon projet professionnel j'ai plus ou moins trois gros choix: l'enseignement et/ou la recherche, l'entreprise ou la création d'activité 
+<Yakulu> que ce soit console ou pc, l'immense majorité du développement de jeux nécessite des systèmes et outils fermés, du moins c'est ce qu'il me semble
+<{bog}> Oui c'est aussi ce que j'ai constaté. C'est pourquoi pense faire du jeu vidéo dans mon temps libre. Mais je ne sais pas trop où chercher pour ce qui est des entreprises.
+<Yakulu> je t'ai donné quelques liens au dessus
+<Yakulu> le cnll regroupes plus d'une dizaine d'assos régionales qui elles même ont des dizaines de sociétés spécialisées dans le libre
+<Yakulu> de même tu peux regarder les personnes morales adhérentes à l'APRIL, à l'AFUL etc
+<Yakulu> voir les offres d'emploi sur Lolix et ailleurs
+<{bog}> J'ai vu, et merci beaucoup ça va m'être utile ! 
+<Yakulu> pas de quoi, bon courage dans ta recherche :)
+<{bog}> Est ce que les SSII sont exclusivement tournées vers un type de logiciel ?
+<{bog}> (merci !)
+<{bog}> Ah, et dernière question: je rédige un dossier sur mon projet professionnel (dans le cadre de mes études en informatique)
+<{bog}> puis je reprendre notre conversation dans mon dossier ?
+<{bog}> et Peux tu rapidement te présenter Yakulu ? (Profession et/ou rôle au sein de framasoft)
+<{bog}> (merci beaucoup !)
+* Otyugh est parti (Quit: Beurre demi-sel)
+<Yakulu> chaque SSII ou SSLL a sa propre stratégie, y en a des spécialisées en effet
+<Yakulu> {bog}: tu peux mais ce n'est pas une discussion d'expert
+<{bog}> Je sais, mais c'est une discussion qui me permet de mieux appréhender mon projet et qui donc à le mérite d'être citée ^^
+<Yakulu> en revanche
+<Yakulu> y a des ressources sur lesquelles tu peux t'appuyer aussi :
+<Yakulu> http://www.april.org/livre-blanc-sur-les-modeles-economiques-du-logiciel-libre
+<Yakulu> il date de 2007 mais est toujours pertinent
+<Yakulu> ce libre conseil sur le même sujet : http://www.framablog.org/index.php/post/Libres-conseils-40
+<Yakulu> plus à jour, ce document de l'AFUL : ment les logiciels libres se développent, prospèrent de manière durable et économiquement viable
+<Yakulu> chercher à générer des profits à partir des logiciels libres
+<Yakulu> oups, plutôt : https://aful.org/professionnels/modeles-economiques-logiciels-libres
+<{bog}> exactement ce que je cherchais !
+<Yakulu> et il y a sans doute d'autres publications, notamment en anglais
+<Yakulu> mais moins pertinentes pour notre territoire & législation peut-être
+
+
+PARTIE II
+
+<{bog}> Tout d'abord merci pour tes liens et tes élements de réponses ! Comme je l'ai dis je rédige actuellement un dossier sur mon projet professionnel. Afin de réutiliser notre conversation j'aimerais ton accord ^^
+<Yakulu> oui, tu peux, mais je n'ai aucune prétention d'être expert sur le sujet
+<Yakulu> Fabien, je suis entrepreneur-salarié dans une coopérative d'activités et d'emploi (j'ai ma propre activité, comme si j'étais à mon compte)
+<{bog}> une coopérative d'activités ?
+<Yakulu> oui, voir : http://www.apce.com/pid648/cooperatives-activites.html.
+<{bog}> Je me rends compte que je tutoie depuis le début, ça ne gène pas ? (Désolé, sur internet j'ai l'habitude de tutoyer)
+<Yakulu> non, dans le libre, on se tutoie tous ;)
+<{bog}> Haha :)
+<{bog}> Tu joues un rôle dans framasoft ?
+<Yakulu> je suis membre de Frama
+<Yakulu> on sort tout juste de l'Assemblée Générale 2014 :)
+<{bog}> En tant que membre tu contribues aux divers projets ? (Je ne connais pas très bien la structure de framasoft.)
+<Yakulu> je contribue essentiellement aux échanges internes, à la technique
+<Yakulu> je devrais être amené à travailler autour de framapad & framacalc
+<{bog}> Par technique tu entends developpement ?
+<Yakulu> non, infrastructure technique, serveur setc
+<Yakulu> frama ne fait pas ou peu de développement
+<Yakulu> mais on a des participants ou memrbes qui en font à titre personnel
+<Yakulu> membres*
+<{bog}> si j'ai bien compris frama offres surtout des services libres (framadate farmacalc etc)
+<Yakulu> historiquement frama offrait surtout un annuaire de logiciels libres
+<Yakulu> puis s'est diversifié autour de tas de projets menés par des bonnes avolontés
+<Yakulu> aujourd'hui est surtout visible par ses services en ligne
+<Yakulu> quand tu vas sur la page d'accueil, tu retrouves tous les projets actifs par catégorie : http://framasoft.org/
+<{bog}> Mais les membres actifs dans le développement sont tous bénévoles ? J'ai cru voir qu'il y avait quelques permanents
+<Yakulu> il y a deux permanents
+<Yakulu> ils gèrent surtout les projets, les coordonnent, font l'administratif et parlent de l'asso envers le public (conférences, presse etc)
+<Yakulu> ils font un peu de technique aussi, essentuellement de l'admin sys
+<Yakulu> mais les projets reposent quasi tous sur le bénévolat
+<{bog}> Donc moi qui cherche un emploi du coté du developpement libre j'ai plutot interet à regarder vers les entreprises qui utilisent le libre ?
+<Yakulu> oui, aucune association n'emploie de développeur à ma connaissance
+<Yakulu> il faut aller du côté des sociétés spécialisées existantes, ou monter ta société
+<{bog}> Tu crois que tu pourrais me parler de ces entreprises ?
+<Yakulu> il y en des centaines, difficile d'en faire des généralités
+<Yakulu> il y a une catégorisation qui est faite dans les docs que je viens de te citer
+<Yakulu> le mieux pour avoir des infos reste de contacter ces fédérations d'entreprises du libre, comme la cnll
+<Yakulu> tu es dans quel coin de la france ?
+<{bog}> D'accord (tes liens vont m'être très utile). Tu as ta propre activité; comment et  pourquoi as tu décidé de le faire ?  
+<Yakulu> y a une étude qui va t'intéresser : http://www.cnll.fr/news/resultats-etude-2014/
+<{bog}> Je suis en franche-comté (donc pas grand chose ici)
+<Yakulu> à voir ici : http://www.cnll.fr/cnll/membres/
+<Yakulu> j'ai décidé de créer mon activité parce que je voulais travailler sur du logiciel libre, pour des associations et être en accord avec mes valeurs
+<Yakulu> je ne suis pas sûr que mon parcours soit hyper pertinent mais j'ai encore un lien pour toi :)
+<{bog}> Ton parcours peu m'intéresser car je pars du même stade: l'envie de travailler sur du logiciel libre et d'être en accord avec mes valeurs !
+<Yakulu> https://linuxfr.org/users/lebouquetin/news
+<Yakulu> il a fait une série de dépêches sur linuxfr au sujet de vivre du logiciel libre
+<Yakulu> et a interviewé 5 ou 6 entrepreneur sdu libres qui se sont lancés
+<{bog}> Génial !
+<Yakulu> la moitié des dépêches de la page en font partie :)
+<Yakulu> je vais devoir aller manger un bout en revanche, mais n'hésite pas
+<{bog}> Merci beaucoup pour tout tes liens et pour avoir partagé ton expérience avec moi !
+<Yakulu> je t'en prie, bon courage
+<{bog}> Et merci d'avoir donné de ton temps. Bonne continuation !
+<{bog}> (Et bon appétit aussi ^^ )
+<Yakulu> merci
+
+
