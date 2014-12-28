@@ -21,7 +21,7 @@
 \contentsline {chapter}{\numberline {6}Vers un m\IeC {\'e}tier}{11}
 \contentsline {section}{\numberline {6.1}Le domaine d'activit\IeC {\'e}}{11}
 \contentsline {section}{\numberline {6.2}La fonction}{11}
-\contentsline {chapter}{\numberline {7}Rencontre avec professionnels}{12}
+\contentsline {chapter}{\numberline {7}Rencontre avec des professionnels}{12}
 \contentsline {section}{\numberline {7.1}Le monde du libre}{12}
 \contentsline {section}{\numberline {7.2}Le monde de l'enseignement et de la recherche}{12}
 \contentsline {chapter}{\numberline {8}Confrontation au march\IeC {\'e}}{13}
