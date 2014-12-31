@@ -30,33 +30,39 @@
 \contentsline {paragraph}{Savoir-Faire}{12}
 \contentsline {section}{\numberline {4.1}Mes objectifs}{12}
 \contentsline {section}{\numberline {4.2}Mes priorit\IeC {\'e}s}{12}
-\contentsline {part}{III\hspace {1em}Projet Professionnel}{13}
-\contentsline {chapter}{\numberline {5}Construction du projet}{14}
-\contentsline {section}{\numberline {5.1}Missions et t\IeC {\^a}ches}{14}
-\contentsline {section}{\numberline {5.2}L'environnement}{14}
-\contentsline {chapter}{\numberline {6}Vers un m\IeC {\'e}tier}{15}
-\contentsline {section}{\numberline {6.1}Le domaine d'activit\IeC {\'e}}{15}
-\contentsline {section}{\numberline {6.2}La fonction}{15}
-\contentsline {chapter}{\numberline {7}Rencontre avec des professionnels}{16}
-\contentsline {section}{\numberline {7.1}Le monde du libre}{16}
-\contentsline {section}{\numberline {7.2}Le monde de l'enseignement et de la recherche}{16}
-\contentsline {chapter}{\numberline {8}Confrontation au march\IeC {\'e}}{17}
-\contentsline {section}{\numberline {8.1}Les besoins}{17}
-\contentsline {section}{\numberline {8.2}Les profils recherch\IeC {\'e}s}{17}
-\contentsline {section}{\numberline {8.3}Mes atouts}{17}
-\contentsline {part}{IV\hspace {1em}Strat\IeC {\'e}gies d'action}{18}
-\contentsline {chapter}{\numberline {9}Strat\IeC {\'e}gie d'acquisition de comp\IeC {\'e}tences}{19}
-\contentsline {section}{\numberline {9.1}La formation}{19}
-\contentsline {section}{\numberline {9.2}Les exp\IeC {\'e}riences}{19}
-\contentsline {subsection}{\numberline {9.2.1}Du choix des stages}{19}
-\contentsline {chapter}{\numberline {10}Strat\IeC {\'e}gie d'adaptation au march\IeC {\'e}}{20}
-\contentsline {section}{\numberline {10.1}Secteurs}{20}
-\contentsline {section}{\numberline {10.2}Entreprises}{20}
-\contentsline {chapter}{\numberline {11}Strat\IeC {\'e}gie de communication}{21}
-\contentsline {section}{\numberline {11.1}Les r\IeC {\'e}seaux professionnels}{21}
-\contentsline {section}{\numberline {11.2}Recherche de stages et d'emplois}{21}
-\contentsline {subsection}{\numberline {11.2.1}Lettre de motivation}{21}
-\contentsline {subsection}{\numberline {11.2.2}CV}{21}
-\contentsline {subsection}{\numberline {11.2.3}Entretiens}{21}
-\contentsline {part}{V\hspace {1em}Conclusion}{22}
-\contentsline {chapter}{\numberline {12}Apport du Cursus Master en Ing\IeC {\'e}nerie}{23}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{R\IeC {\'e}sum\IeC {\'e}}{12}
+\contentsline {paragraph}{Analyse}{13}
+\contentsline {subparagraph}{Travailler dans un milieu professionnel qui correspond \IeC {\`a} mes valeurs}{13}
+\contentsline {subparagraph}{Pouvoir faire preuve de cr\IeC {\'e}ativit\IeC {\'e}}{13}
+\contentsline {subparagraph}{D\IeC {\'e}velopper mes comp\IeC {\'e}tences : actualiser mon potentiel}{13}
+\contentsline {part}{III\hspace {1em}Projet Professionnel}{14}
+\contentsline {chapter}{\numberline {5}Construction du projet}{15}
+\contentsline {section}{\numberline {5.1}Missions et t\IeC {\^a}ches}{15}
+\contentsline {section}{\numberline {5.2}L'environnement}{15}
+\contentsline {chapter}{\numberline {6}Vers un m\IeC {\'e}tier}{16}
+\contentsline {section}{\numberline {6.1}Le domaine d'activit\IeC {\'e}}{16}
+\contentsline {section}{\numberline {6.2}La fonction}{16}
+\contentsline {chapter}{\numberline {7}Rencontre avec des professionnels}{17}
+\contentsline {section}{\numberline {7.1}Le monde du libre}{17}
+\contentsline {section}{\numberline {7.2}Le monde de l'enseignement et de la recherche}{17}
+\contentsline {chapter}{\numberline {8}Confrontation au march\IeC {\'e}}{18}
+\contentsline {section}{\numberline {8.1}Les besoins}{18}
+\contentsline {section}{\numberline {8.2}Les profils recherch\IeC {\'e}s}{18}
+\contentsline {section}{\numberline {8.3}Mes atouts}{18}
+\contentsline {part}{IV\hspace {1em}Strat\IeC {\'e}gies d'action}{19}
+\contentsline {chapter}{\numberline {9}Strat\IeC {\'e}gie d'acquisition de comp\IeC {\'e}tences}{20}
+\contentsline {section}{\numberline {9.1}La formation}{20}
+\contentsline {section}{\numberline {9.2}Les exp\IeC {\'e}riences}{20}
+\contentsline {subsection}{\numberline {9.2.1}Du choix des stages}{20}
+\contentsline {chapter}{\numberline {10}Strat\IeC {\'e}gie d'adaptation au march\IeC {\'e}}{21}
+\contentsline {section}{\numberline {10.1}Secteurs}{21}
+\contentsline {section}{\numberline {10.2}Entreprises}{21}
+\contentsline {chapter}{\numberline {11}Strat\IeC {\'e}gie de communication}{22}
+\contentsline {section}{\numberline {11.1}Les r\IeC {\'e}seaux professionnels}{22}
+\contentsline {section}{\numberline {11.2}Recherche de stages et d'emplois}{22}
+\contentsline {subsection}{\numberline {11.2.1}Lettre de motivation}{22}
+\contentsline {subsection}{\numberline {11.2.2}CV}{22}
+\contentsline {subsection}{\numberline {11.2.3}Entretiens}{22}
+\contentsline {part}{V\hspace {1em}Conclusion}{23}
+\contentsline {chapter}{\numberline {12}Apport du Cursus Master en Ing\IeC {\'e}nerie}{24}
