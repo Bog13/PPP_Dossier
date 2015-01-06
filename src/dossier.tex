@@ -3,23 +3,40 @@
 \usepackage[francais]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage[tight]{shorttoc}
+
 \author{Bérenger Ossete Gombe}
 \title{Dossier PPP}
 
 %==================== NEW COMMANDS ====================
 %\newcommand{\tabTitle}[1]{\multicolumn{1}{|c|}{\textsc{#1}} }
 \newcommand{\tabTitle}[1]{\hfill{} \textsc{#1} \hfill{} }
+\newcommand{\sommaire}{\shorttoc{Sommaire}{1}}
+\newcommand{\citation}[2]
+{
+  \begin{quote}
+    ``#1''
+  \end{quote}
+
+  \begin{flushright}
+    \bsc{#2}
+  \end{flushright}
+}
+
 %======================================================
 
 \begin{document}
 \maketitle
 
 \newpage
-\tableofcontents{}
+\sommaire{}
+
 \newpage
 
 \part{Introduction}
+
 \chapter{Remerciements}
+
 \chapter{Guide de lecture}
 
 \part{Bilan personnel}
@@ -90,7 +107,7 @@ J'ai une certaine connaissance du C++, qui est un langage de programmation que j
 
 \paragraph{L'importance du partage}
 \subparagraph{}
-Tout ce que j'ai appris en dehors de mes études est principalement grâce à internet et aux projets d'éducations pour tous tels Wikipedia ou OpenClassRooms\footnote{Anciennement ``le site du zéro''}.
+Tout ce que j'ai appris en dehors de mes études est principalement dû à internet et aux projets d'éducations pour tous tels Wikipedia ou OpenClassRooms\footnote{Anciennement ``le site du zéro''}.
 Je soutien totalement ce genre de projet qui, je le pense, sont dans l'esprit du siècle des lumières avec leur idéaux de diffusions du savoir. Le partage du savoir permet à tout le monde d'accéder à la connaissance en toute liberté et sans descrimination. Cela m'a permis de découvrir, de me renseigner, d'apprendre. 
 
 \subparagraph{}
@@ -103,17 +120,17 @@ La découverte apparait alors comme une première étape, le partage de la déco
 
 \subsection{Valeurs}
 \paragraph{}
-Nous avons vu que mes principales motivations sont l'acquisitions de connaissance puis leurs partages. Derrière ces motivations, se cachent de fortes valeurs.
+Nous avons vu que mes principales motivations sont l'acquisitions de connaissance puis leurs partages. Derrière ces motivations, se cachent des valeurs.
 Mes valeurs tourne autour du respect de la \textbf{liberté} et du \textbf{bon sens}.
 
-\paragraph{Point rapide sur le libre}
-Un logiciel est dit libre s'il respecte les quatre libertés\footnote{D'après Richard \textsc{Stallman}} suivantes
-\begin{enumerate}
-\item La liberté de l'exécuter selon notre bon vouloir.
-\item La liberté d'étudier et de modifier le code source.
-\item La liberté de le partager selon notre bon vouloir.
-\item La liberté de partager notre version modifiée.
-\end{enumerate}
+%\paragraph{Point rapide sur le libre}
+%Un logiciel est dit libre s'il respecte les quatre libertés\footnote{D'après Richard \textsc{Stallman}} suivantes
+%\begin{enumerate}
+%\item La liberté de l'exécuter selon notre bon vouloir.
+%\item La liberté d'étudier et de modifier le code source.
+%\item La liberté de le partager selon notre bon vouloir.
+%\item La liberté de partager notre version modifiée.
+%\end{enumerate}
 
 
 \paragraph{Ma découverte du libre}
@@ -123,9 +140,9 @@ Ce projet collaboratif permet à tout le monde d'apprendre et de participer à l
 J'ai ensuite fais connaissance avec l'OS\footnote{Operating System (Système d'exploitation)} Gnu/Linux par pur hasard. J'ai fais alors l'expérience d'une liberté que je ne connaissais pas avec Windows. J'utilisais toujours ce dernier, considérant Gnu/Linux comme une curiosité technologique intéressante. 
 Cela a duré jusqu'au moment où je suis tombé par pur hasard (encore une fois) sur une conférence de R.Stallman\footnote{Richard Matthew \textsc{Stallman} (1953 - ): Fondateur de la Free Software Foundation et diffuseur historique des idées du logiciel libre.}. J'ai alors réalisé à quel point la liberté était importante pour moi.
 
-\paragraph{L'influence du libre sur moi}
-Je suis convaincu que nous devons avoir des logiciels libres, tournant sur du materiel libre et en communication entre eux via des bandes-passantes libres afin de rester maître de notre informatique.
-C'est un combat qui me tient à coeur car il me parait juste, éthique et d'une importance capital dans la mesure où nous construisons une ``société assistée par ordinateur''. Je suis en faveur d'une informatique libre, et également d'une culture libre et d'une éducation libre. En effet, je pense que l'homme devrait être au centre de la société en tant qu'acteur et non en tant que produit. Le savoir devrait être partagé, et non breveté, caché et vendu sous licence.
+%\paragraph{L'influence du libre sur moi}
+%Je suis convaincu que nous devons avoir des logiciels libres, tournant sur du materiel libre et en communication entre eux via des bandes-passantes libres afin de rester maître de notre informatique.
+%C'est un combat qui me tient à coeur car il me parait juste, éthique et d'une importance capital dans la mesure où nous construisons une ``société assistée par ordinateur''. Je suis en faveur d'une informatique libre, et également d'une culture libre et d'une éducation libre. En effet, je pense que l'homme devrait être au centre de la société en tant qu'acteur et non en tant que produit. Le savoir devrait être partagé, et non breveté, caché et vendu sous licence.
 
 \paragraph{}
 Mes motivations sont donc portées par ces valeurs. Celle-ci guident grandement la construction de mon projet professionnel, c'est pourquoi j'ai pris la liberté d'autant les détailler.
@@ -244,17 +261,17 @@ Il s'agit ici de définir ce que je \textsc{\textbf{veux}} faire sans s'occuper 
 \footnotetext[3]{Les studios de developpement libre sont très rare (TODO)}
 
 \begin{description}
-\item [Enseignement] C'est ce qu'il y a de mieux pour partager sa passion pour l'informatique. Malheureusement je trouve ça trop peu technique: on passe \textbf{tout} son temps à enseigner et donc on a pas le temps d'approfondir véritablement (DEMANDER).
+\item [Enseignement] C'est ce qu'il y a de mieux pour partager sa passion pour l'informatique. Malheureusement je trouve ça trop peu technique: on passe \textbf{tout} son temps à enseigner et donc on a pas le temps d'approfondir véritablement.
 
-\item [Recherche] Semble correspondre parfaitement avec mes méthodes de travails. (DEMANDER)
+\item [Recherche] Semble correspondre parfaitement avec mes motivations et valeurs.
 
 \item [Les SSII] Intéressant car on change souvent de client ce qui permet de varier son travail. Cependant travailler pour un SS2I me forcerait potentiellement à devoir travailler avec des outils non-libre et pour des sociétés qui pourraient ne pas être en phase avec mes valeurs.
 
-\item [Les SSLL] Même intêret que pour les SS2I, les éventuels conflits de valeurs en moins. Ces sociétés sont relativements rare\footnote{Annuaires des SSLL (TODO)}, ce qui m'obligerait à me déplacer.
+\item [Les SSLL] Même intêret que pour les SS2I, les éventuels conflits de valeurs en moins. Ces sociétés sont relativements rare\footnote{Annuaire des SSLL: http://www.linux-france.org/article/pro/annuaire/}, ce qui m'obligerait à me déplacer.
  
-\item [Création d'activité] Bon. C'est très intéressant mais c'est également très risqué mais il y a à faire coté logiciel libre. (DEMANDER)
+\item [Création d'activité] Ça me semble très intéressant mais également très risqu'é. Cependant je pense qu'il y a des choses à faire coté logiciel libre.
 
-\item [Developpement] Intuitivement je dirais que ça m'intéresse beaucoup. \\J'aime le travail d'équipe et j'aime programmer. Cependant j'ai peur que ce soit trop routinier. Je pense également ne pas apprécier de \textit{faire} sans \textit{concevoir}.
+\item [Developpement] Intuitivement je dirais que ça m'intéresse beaucoup. \\J'aime le travail d'équipe et j'aime programmer. Cependant ça risque de ne pas me convenir pour le coté routinier du métier. Je pense également ne pas apprécier de \textit{faire} sans \textit{concevoir}.
 \end{description}
 
 
@@ -262,25 +279,235 @@ Il s'agit ici de définir ce que je \textsc{\textbf{veux}} faire sans s'occuper 
 
 \chapter{Construction du projet}
 \paragraph{}
-Dans la partie finale du bilan personnel j'ai dégagé plusieurs projet qui me plairait d'entreprendre. Cependant je vais devoir un choisir un. Devant cette difficulté je choisis de me lancer dans le projet le plus général et le plus en phase avec mon parcours scolaire: \tabTitle{la recherche}. \\
+Dans la partie finale du bilan personnel j'ai dégagé plusieurs projet qui me plairait d'entreprendre. Cependant je vais devoir un choisir un. Devant cette difficulté je choisis de me lancer dans le projet le plus général et le plus en phase avec mon parcours scolaire: \tabTitle{\fbox{la recherche}}. \\
 
 \paragraph{}
-Ce projet va gagner en maturité et va éventuellement changer.
-Je choisis ce projet professionnel car il me laisse la possibilité de changer plus tard, et qu'il est pour le moment celui qui m'enthousiasme et me motive le plus.
+J'ai choisis ce projet professionnel car il me laisse la possibilité de changer plus tard. Il me laisse le temps de découvrir des domaines de l'informatique que je ne connais pas\footnote{le web, le réseau, les systèmes embarqués...}. 
+
+\paragraph{}
+Initialement ce projet me motivait et m'intéressait beaucoup, mais en me renseignant j'ai découvert que \textit{je me faisais une idée fausse du métier de chercheur}. Je détaillerai ce point en conclusion de cette partie.
 
 
-\section{Missions et tâches}
-\section{L'environnement}
-L'environnement principal d'un chercheur est un laboratoire de recherche.
+%\section{Missions et tâches}
+%\section{L'environnement}
+%L'environnement principal d'un chercheur est un laboratoire de recherche.
+%
+%\chapter{Vers un métier}
+%\section{Le domaine d'activité}
+%
+%
+%\section{La fonction}
+%Chercheur.
 
-\chapter{Vers un métier}
-\section{Le domaine d'activité}
-\section{La fonction}
+\chapter{Rencontre avec un professionnel}
+\paragraph{}
+Afin d'appuyer mon choix de projet professionnel j'ai contacté des personnes travaillant dans les domaines m'intéressant.
+J'ai donc discuté avec trois personnes en irc\footnote{\textsc{IRC}: Internet Relay Chat ou IRC (en français, « discussion relayée par Internet ») est un protocole de communication textuelle sur Internet .} et j'ai rencontré un enseignant-chercheur de l'université de Franche-Comté.
 
-\chapter{Rencontre avec des professionnels}
-\section{Le monde du libre}
-\section{Le monde de l'enseignement et de la recherche}
-\section{Le monde du jeu vidéo et de la création d'entreprise}
+\paragraph{}
+N'étant pas sûr de mon projet professionnel, les trois premiers interview m'ont permis d'avoir \textbf{un aperçu de mes possibilités et de mes envies.} Ceux-ci n'étaient initialement pas prévus et encore moins préparés. Je les ai inclus dans ce dossier pour l'aide qu'ils m'ont apportés.
+Pour ces raisons, je ne connais presque rien de mes interlocuteurs: je connais uniquement leurs pseudos et leurs professions.
+
+\paragraph{}
+Le dernier interview est le plus important: il s'agit d'une rencontre avec un enseignant-chercheur autour de la recherche. Mon projet professionnel étant plus net dans mon esprit au moment de notre rencontre, j'ai pu poser des questions préparées et pertinantes (contrairement aux précedents interview).
+
+
+
+\section{Présentations}
+\subsection[Un membre de framasoft]{Un membre de Framasoft\footnote{\textsc{framasoft}: Association française de loi 1901, issue du monde éducatif, Framasoft est un réseau d'éducation populaire consacré principalement au logiciel libre. }: \fbox{Yakulu}}
+Fabien, alias Yakulu, est un membre de l'association Framasoft. Fabien est entrepreneur-salarié dans une coopérative d'activités \footnote{\textsc{Coopérative d'activité}: Les coopératives d'activités et d'emploi (CAE) constituent un concept original permettant à un particulier de tester une production ou un service en toute sécurité.
+
+L'originalité de la CAE est d'offrir au porteur de projet un statut "d'entrepreneur salarié" qui lui permet de percevoir un salaire et de bénéficier de la couverture sociale d'un salarié classique.} et d'emploi.
+
+\subsection[Un contributeur du projet LibreOffice]{Un contributeur du projet LibreOffice: \fbox{Chriswot}}
+Chriswot est un contributeur de LibreOffice australien.
+
+\subsection[Une développeuse de jeux vidéo]{Une développeuse de jeux vidéo: \fbox{Céline Libéral}}
+Céline Libéral possède le ``studio''\footnote{Je ne sais pas comment appeler ça autrement: Célisoft possède une structure juridique.} de jeu libre Célisoft qu'elle à fondé en juin 2014. Elle a travaillé pour des entreprises française avant de se lancer à son propre compte.
+
+\subsection[Un enseignant-chercheur]{Un enseignant-chercheur: \fbox{Alain Giorgetti} }
+Alain Giorgetti est enseignant-chercheur à l'Université de Franche-Comté. Il est membre de l'équipe de recherche \textsc{Vesontio}\footnote{Vérification et Validation de logiciels et de systèmes embarqués}.\\
+
+\begin{tabular}{c|c}
+
+    Tél. & 03 81 66 66 60\\
+\hline
+    Courriel & agiorget@femto-st.fr\\
+\hline
+    Site personnel & http://members.femto-st.fr/alain-giorgetti/\\
+
+\end{tabular}
+
+\section{Le libre}
+\paragraph{}
+Il s'agit de ma première piste de projet professionnel. Ma découverte du libre a changé ma vision de l'informatique et de ses enjeux, ce qui explique pourquoi je me suis initialement dirigé vers les métiers du libre. Ces interviews sont rapides et peu ordonnées.
+
+\paragraph{}
+Mon objectif était de me renseigner auprès des professionnels en allant leur parler directement. Pour ce faire je me suis simplement rendu sur leur canal irc et j'ai demandé s'il y avait quelqu'un pour discuter avec moi des métiers du libres. 
+
+\paragraph{}
+Deux \textbf{volontaires} sont alors intervenus: Chriswot, un contributeur de LibreOffice et Fabien alias Yakulu, un membre de l'association Framasoft.
+
+
+\subsection{L'interview de Yakulu}
+
+\begin{description}
+\item [Question]:  Bonjour ! Je prépare un dossier dans le cadre de mes études et j'aimerais discuter dix petites minutes avec un développeur. Je m'intéresse au libre et j'aimerais en faire mon métier mais je connais peu le domaine et j'aimerais connaître mes possibilités. Quelqu'un qui travail dans le domaine du libre pour m'éclairer ?
+\item [Réponse]:  Que veux tu savoir ?
+\item [Question]:  Comme j'aimerais faire du libre mon métier j'aimerais avoir un retour d'expérience d'un developpeur ayant fait ce parcours
+\item [Réponse]:  En fait ça dépend du contexte : tu veux te lancer à ton compte, trouver du travail ? Tu souhaites créer du logiciel libre ou contribuer ou seulement utiliser ? Aujourd'hui 90\%, au moins, des agences Web, la plupart des sociétés d'informatique, emploient du logiciel libre mais rarement exclusivement (et très rarement contribuent)
+\item [Question]:  Utiliser c'est sûr et certain. Contribuer et créer me conviennent tous deux.
+\item [Réponse]:  Il y a des ENL (entreprise du numérique libres), parfois regroupées en clusters régionaux, qui sont sensées faire majoritairement du logiciel libre et contribuer. Le cnll\footnote{http://www.cnll.fr/} les regroupe. Il y en a dans à peu près toutes les régions. Il y a des sociétés qui sont adhérentes à l'april, à des groupes d'utilisateurs locaux qui font souvent du libre. En somme, tu peux très bien faire du développement, Web ou pas, et te faire recrutrer par ce genre de société. Il y a même un site\footnote{http://fr.lolix.org/} d'offres d'emplois spécialisée sur du logiciel libre (mais il n'est clairement pas exhaustif).
+\item [Question]:  En fait moi je m'intéresse au developpement logiciel mais je ne veux pas travailler avec des outils propriétaires par choix personnel.
+\item [Réponse]:  Honnêtement, si c'est surtout une histoire d'environnement de travail, tu peux trouver même dans des société qui ne font pas spécifiquement du libre. Faire du logiciel libre, y contribuer dans son métier est un peu plus difficile, car il y a peu de sociétés, dans la globalité, qui contribuent (alors que beaucoup utilisent). Mais si tu as compétent, il n'y a aucune raison que tu ne trouves pas dans une société spécialisée en logiciels libres: les bons développeurs restent une ressource rare, donc appréciée !
+\item [Question]:  Après moi je m'intéresse particulièrement à l'intelligence artificielle, à la logique et au jeu vidéo.
+\item [Réponse]:  Après ça dépendra notamment du lieu où tu vis, des technologies sur lesquelles tu vas te former et te spécialiser. Je connais pas très bien ces domaines, mais intuitivement je penserais que tu as plus de chances de trouver un environnement libre voire d'y contribuer en IA qu'en jeu vidéo.
+\item [Question]:  Pour mon projet professionnel j'ai plus ou moins trois gros choix: l'enseignement et/ou la recherche, l'entreprise ou la création d'activité 
+\item [Réponse]:  Que ce soit console ou pc, l'immense majorité du développement de jeux nécessite des systèmes et outils fermés, du moins c'est ce qu'il me semble
+\item [Question]:  Oui c'est aussi ce que j'ai constaté. C'est pourquoi pense faire du jeu vidéo dans mon temps libre. Mais je ne sais pas trop où chercher pour ce qui est des entreprises.
+\item [Réponse]:  Je t'ai donné quelques liens au dessus: le cnll regroupes plus d'une dizaine d'assos régionales qui elles même ont des dizaines de sociétés spécialisées dans le libre. De même tu peux regarder les personnes morales adhérentes à l'APRIL, à l'AFUL, voir les offres d'emploi sur Lolix et ailleurs.
+
+\item [Question]:  Est ce que les SSII sont exclusivement tournées vers un type de logiciel ?
+\item [Réponse]:  chaque SSII ou SSLL a sa propre stratégie, y en a des spécialisées en effet
+\item [Question]: Tout d'abord merci pour tes liens et tes élements de réponses ! Comme je l'ai dis je rédige actuellement un dossier sur mon projet professionnel.je rédige un dossier sur mon projet professionnel (dans le cadre de mes études en informatique), puis je reprendre notre conversation dans mon dossier ?  Afin de réutiliser notre conversation j'aimerais ton accord. Et peux tu rapidement te présenter Yakulu ? (Profession et/ou rôle au sein de framasoft)
+
+\item [Réponse]:  Oui, tu peux, mais je n'ai aucune prétention d'être expert sur le sujet.  Fabien, je suis entrepreneur-salarié dans une coopérative d'activités et d'emploi (j'ai ma propre activité, comme si j'étais à mon compte)
+\item [Question]:  Une coopérative d'activités ?
+\item [Réponse]:  Oui, voir:
+\item [lien] http://www.apce.com/pid648/cooperatives-activites.html.
+\item [Question]:  Je me rends compte que je tutoie depuis le début, ça ne gène pas ? (Désolé, sur internet j'ai l'habitude de tutoyer)
+\item [Réponse]:  Non, dans le libre, on se tutoie tous ;)
+\item [Question]:  Tu joues un rôle dans framasoft ?
+\item [Réponse]:  Je suis membre de Frama. On sort tout juste de l'Assemblée Générale 2014 :)
+\item [Question]:  En tant que membre tu contribues aux divers projets ? (Je ne connais pas très bien la structure de framasoft.)
+\item [Réponse]:  Je contribue essentiellement aux échanges internes, à la technique, je devrais être amené à travailler autour de framapad & framacalc.
+\item [Question]:  Par technique tu entends developpement ?
+\item [Réponse]:  Non, infrastructure technique, serveur etc. Framasoft ne fait pas ou peu de développement mais on a des participants ou membres qui en font à titre personnel.
+\item [Question]:  Si j'ai bien compris Framasoft offres surtout des services libres (framadate farmacalc etc).
+\item [Réponse]:  Historiquement Framasoft offrait surtout un annuaire de logiciels libres, puis s'est diversifié autour de tas de projets menés par des bonnes volontés. Aujourd'hui il est surtout visible par ses services en ligne. Quand tu vas sur la page d'accueil\footnote{http://framasoft.org/}, tu retrouves tous les projets actifs par catégorie.
+\item [Question]:  Mais les membres actifs dans le développement sont tous bénévoles ? J'ai cru voir qu'il y avait quelques permanents.
+\item [Réponse]:  Il y a deux permanents. Ils gèrent surtout les projets, les coordonnent, font l'administratif et parlent de l'association envers le public (conférences, presse etc). Ils font un peu de technique aussi, essentiellement de l'adminisatrion système, mais les projets reposent quasi tous sur le bénévolat.
+\item [Question]:  Donc moi qui cherche un emploi du coté du developpement libre j'ai plutot interet à regarder vers les entreprises qui utilisent le libre ?
+\item [Réponse]:  Oui, aucune association n'emploie de développeur à ma connaissance, il faut aller du côté des sociétés spécialisées existantes, ou monter ta société.
+\item [Question]:  Tu crois que tu pourrais me parler de ces entreprises ?
+\item [Réponse]:  Il y en des centaines, difficile d'en faire des généralités. Il y a une catégorisation qui est faite dans les docs que je viens de te citer. Le mieux pour avoir des infos reste de contacter ces fédérations d'entreprises du libre, comme la cnll. Tu es dans quel coin de la france ?
+\item [Question]:  D'accord (tes liens vont m'être très utile). Tu as ta propre activité, comment et  pourquoi as tu décidé de le faire ? (Je suis en franche-comté (donc pas grand chose ici)).
+\item [Réponse]:  Il y a une étude\footnote{http://www.cnll.fr/news/resultats-etude-2014/} qui va t'intéresser. J'ai décidé de créer mon activité parce que je voulais travailler sur du logiciel libre, pour des associations et être en accord avec mes valeurs. Je ne suis pas sûr que mon parcours soit hyper pertinent mais j'ai encore un lien\footnote{https://linuxfr.org/users/lebouquetin/news} pour toi :)
+\item [Question]:  Ton parcours peut m'intéresser car je pars du même stade: l'envie de travailler sur du logiciel libre et d'être en accord avec mes valeurs !
+\item [Réponse]:  Il a fait une série de dépêches sur linuxfr au sujet de vivre du logiciel libre et a interviewé 5 ou 6 entrepreneur du libres qui se sont lancés. Je vais devoir aller manger un bout en revanche, mais n'hésite pas
+\item [Question]:  Merci beaucoup pour tout tes liens et pour avoir partagé ton expérience avec moi !
+\item [Réponse]:  je t'en prie, bon courage
+\item [Question]:  Et merci d'avoir donné de ton temps. Bonne continuation !
+\item [Réponse]:  Merci.
+
+\end{description}
+
+\newpage
+\subsection{L'interview de Chriswot (Traduction en français)}
+
+\begin{description}
+\item [Question]:  Bonjour, et merci !
+\item [Réponse]:  Que veux tu savoir ?
+\item [Question]:  Je suis un étudiant en informatique et je cherche des information au sujet du développement de logiciel libre. Je voudrais travailler dans ce domaine mais je ne connais pas les métiers qui sont en accord avec la philosophie du logiciel libre.
+\item [Réponse]:  Ça dépend - pour être payé pour faire du logiciel libre tu vas avoir besoin de trouver un job qui paye pour faire de la maintenance.
+\item [Question]:  Ma première question serait: qui es tu ? Un developpeur du projet LibreOffice ? (Pourrais tu te présenter ?)
+\item [Réponse]:  Je suis un developpeur de LibreOffice. Je suis sur le point de décrocher un contrat avec Collabora. Je travail sur LibreOffice depuis environs un an. Je fais beaucoup de relecture et de refractoring. Je commence à connaitre les gens sur l'irc petit à petit.
+\item [Question]:  D'après toi, quel domaine de l'informatique est le plus concerné par le logiciel libre ?
+\item [Réponse]:  Coder et tester. C'est une vaste question ! Tu veux dire, par quel aspect des logiciels je suis intéressé ? Genre les applications, les environnements de travails, les systèmes d'exploitations, etc ?
+\item [Réponse]:  Et bien, pour l'instant je m'intéresse aux applications, mais c'est une vaste domaine. Pour l'instant je bosse sur la couche widget de LibreOffice (ça s'appelle VCL).
+\item [Question]: Peux tu m'expliquer comment est ce que tu es entré dans le developpement de logiciel libre ?
+\item [Réponse]:  J'ai commencé par lire du code après avoir vu un article sur LibreOffice sur Hacker New.
+\item [Question]:  Et quel conseil donnerais tu à un étudiant voulant travailler sur du logiciel libre ?
+\item [Réponse]: Voici ce que j'ai fais. J'ai cherché le point d'entré de LibreOffice (dans la fonction principale). Ensuite je me suis promener danq le code en faisant parfois des petits changements après avoir compris comment utiliser les outils de travail des développeurs. Évidemment, un projet de cette envergure est long à comprendre, mais la toute première chose à faire est de récupérer le code source et réussir à travailler avec (le compiler et l'exécuter). Après je lirais toute la documentation possible et je lirais BEAUCOUP de code.  Regarde si tu n'as pas de petit changement faciles à faire (corriger une erreur typographique, changer un commentaire...). Fait ensuite en sorte d'intégrer ces changements dans les projets. Certain projets (comme LibreOffice) facilite la tâche (il utilise par exemple gerrit\footnote{Gerrit est une application Web gratuite de revue de code pour le travail en équipe. Chacun peut y lire, approuver ou rejeter les modifications d'un code source via un navigateur web. Il s'utilise avec Git qui s'occupe de poster ces changements de code.}), d'autre non. Soit prêt à écrire un récapitulatif de ce que tu as trouvé, même si tu l'utilise uniquement pour toi. Promène toi sur l'IRC et essai petit à petit de poser des questions et montre que tu travail sur l'amélioration du logiciel. Quand tu poses une question sur l'IRC, n'oublie pas de toujours expliquer que tu as bien lu la documentation et explique ce qui n'a pas été clair pour toi  (sinon tu risques de te faire doucement attaquer :-) ). Mais avant tout, soit prêt à commenter et à sortir de ta zone de confort. Et apprend à bien utiliser git aussi !
+\item [Question]:  Que veux tu dire par ``sortir de ta zone de confort'' ?
+\item [Réponse]: Tente des trucs sur ton ordi, attends toi à faire des erreurs. Tu vas peut-être devoir travailler dans des domaines qui te sont étranger et apprendre des choses que tu ne connais absolument pas. Par exemple, je suis en train de lire toutes la documentation de l'EMF\footnote{\textsc{EFS}: L'Encrypting File System (abrégé EFS) est une fonctionnalité apparue avec la troisième version des systèmes de fichiers NTFS disponible sur Microsoft Windows 2000 et ultérieurs. Cette technologie permet d'enregistrer des fichiers chiffrés sur ce système de fichiers, ce qui protège les informations personnelles des attaques de personnes ayant un accès direct à l'ordinateur.} de microsoft pour m'habituer à travailler avec des gros documents.
+N'ai pas peur de tout casser sur ta machine: si tu as une branche du code sur git tu peux facilement revenir sur la branch master et tout recommencer.
+\item [Question]:  Le développement de LibreOffice est il ton activité professionnelle principale ?
+\item [Réponse]:  Ça va bientôt l'être :-) mais avant ça j'ai fais plein de petits boulots.
+\item [Question]:  Dans le domaine de l'informatique ?
+\item [Réponse]:  Plus dans les IT\footnote{\textsc{IT}: Technologies de l'informations} que dans l'informatique.
+\item [Question]:  As tu travaillé avec des logiciels libres ?
+\item [Réponse]:  Je faisais de la maintenance pour des produits VMWare. Cotế logiciel libre j'ai fais quelque truc. Pas grand chose, mais j'ai aidé à régler des bug bizarres sur Firefox. J'ai également participé à des projets culturels libres comme Wikipédia.
+\item [Question]:  Donc tu as besoin d'avoir un autre travail ? Je veux travailler uniquement avec des logiciels libres. Donc la principale question est: quel métier je dois chercher si je veux être payé pour développer des logiciels libres ?
+\item [Réponse]:  Tu veux développer des logiciels libres ? Il n'y a pas beaucoup de projets financés mais tu peux essayer de devenir sysadmin et en même temps contribuer aux logiciels libres?
+\item [Question]:  Oui j'aimerais. Je ne sais pas vraiment ce qu'est un sysadmin. Peux tu m'expliquer le role que tient un sysadmin ?
+\item [Réponse]:  Il s'occupe de l'administration de système :-) en gros ils doivent trouver un problème dans le système et le résoudre.
+\item [Réponse]:  J'étais intéressé par LibreOffice. Il n'y a pas de mystère: je suis payé parce que il y a une demande et que mes compétences y répondent parce que j'ai beaucoup travaillé sur ce projet et que j'ai démontrer mes capacités aux autres développeur.
+\item [Question]:  Tu travailles depuis chez toi ?
+\item [Réponse]:  Ouais, je vis en Australie et la plupars des autres développeurs sont en Europe ou en Angleterre.
+\item [Question]:  Seras tu payé quand tu travailleras uniquement sur LibreOffice ?
+\item [Réponse]:  Je vais devoir avoir un métier à côté: mon travail n'excédera pas une durée de deux mois. 
+\item [Question]:  Donc tu auras toujours besoin d'avoir un travail à côté ? Dans ces travails, utilises tu des logiciels libres ?
+\item [Réponse]:  pour être honnête, je dois dire qu'il s'agit de mon premier travail rémunéré en tant que développeur sur du logiciel libre, mais je pense que oui. Mais je dois dire que j'ai beaucoup de liberté ainsi qu'avec un travail ``normal''.
+\item [Réponse]:  Je peux ammener mes enfants à l'école le matin, m'occuper de mon appart. Pas de micromanagement\footnote{\textsc{Micromanagement}: Le micromanagement est un style de management où le manager observe ou contrôle étroitement le travail de ses subordonnés ou employés. Ce type de management se caractérise par un contrôle excessif, ou donnant trop d'attention aux détails.} ou ce genre de chose.
+\item [Question]:  Dois tu changer de travail féquemment ?
+\item [Réponse]:  J'ai essayé de faire ça mais j'ai été viré\footnote{Je ne suis pas certain de la traduction: ``Actually, I took on this role when I was made redundant. I got a good payout. Anyhow... I gotta get some coding done - hope I was helpful :-)''}. J'ai été bien payé cependant. Enfin bref, je vais devoir te laisser pour aller manger un truc. J'espère avoir été util :-) !
+\item [Question]:  Tu l'as été ! Merci beaucoup.
+\item [Question] Et désolé pour mon mauvais anglais.
+\item [Réponse]:  Pas de soucis, bonne chance !
+\item [Réponse]:  Pas du tout, ton anglais était correct :-)
+
+\end{description}
+
+
+\subsection{L'interview de Chriswot (original)}
+
+\begin{description}
+\item [Question]:  Hi ! Thank you !
+\item [Réponse]:  What did you want to know ?
+\item [Question]:  First i am a computer science student and I looking for information about free software dev. I want to work in that domain but I don't know what type of job exists with the free software philosophy.
+\item [Réponse]:  It depends - to get paid to do free software you really need to find a place that is getting paid for support.
+\item [Question]:  My first question would be: Who are you ? A libreoffice developer's ? (Can you introduce yourself ?)
+\item [Réponse]:  I'm a LibreOffice developer who's about to take up a paid contract with Collabora. I've been working on LO for about a year now, on and off. Doing a lot of reading and refactoring. Getting to know folks on IRC gradually
+\item [Question]:  For you which domain of computer science are the more concerned by the free software dev ?
+\item [Réponse]:  Coding and testing. That's a big question ! Do you mean, what aspect of software am I interested in? Like application software, frameworks, operating systems, etc ?
+\item [Réponse]:  Well, for now I am interested in application software, but that's a large area. I'm currently focusing on the widget layer of LO, called VCL
+\item [Question]:  Can you explain me how did you step in the free software dev ?
+\item [Réponse]:  I started by reading the code after seeing a post about LO on Hacker News
+\item [Question]:  And what advices you would give to a student who wants to work in free software dev ?
+\item [Réponse]:  For me, I looked for the entry point of LO (the main function). Then I traced through the code and eventually started making some small changes after working out how to setup the build tools. Sure, a big enough free software project takes time to understand. The very first thing is to work out how to get the source code, and work out how to build it. Then I'd read all the documentation you can find, and be prepared to do a LOT of code reading. Work out if there are any easy changes you can make, like typos in comments, silly mistakes that can be fixed. Make those changes then work out how to get those changes integrated into the core product. Some projects like LO make it easy (e.g. we use gerrit), other projects it's quite hard. Be prepared to write a document about what you find, even if you use it only for yourself. Lurk on IRC for a while and try to gradually ask questions and show you are working on issues, but if you ask a question on IRC on a dev channel, always explain that you have read the documentation and that it wasn't clear, could someone clarify otherwise you might be mildly flamed :-) . But above all, be prepared to take on feedback, and be prepared to go outside your comfort zone and learn how to use git properly :-)
+\item [Question]:  what do you mind when you say " go outside your comfort zone" ?
+\item [Réponse]:  Try stuff on your local machine - be willing to make mistakes. Look at areas you don't understand - sometimes you'll need to read up on odd things. For instance, I'm currently reading all the EMF specs from Microsoft so that I can get drawing in documents working. Don't be afraid to break stuff on your local workstation - if you branch code in git, it's very hard to go wrong as you can checkout the master branch and start a new branch.
+\item [Question]:  Is LO development your main job ?
+\item [Réponse]:  It will be shortly :-) but before this I've worked in a variety of jobs.
+\item [Question]:  A variety of jobs in computer science 's field ?
+\item [Réponse]:  More IT than computer science.
+\item [Question]:  Did you work with free softwares ?
+\item [Réponse]:  I was a support person, a senior software troubleshooter for a VMWare product, stuff like that. I did a few things. Not much really, but I helped troubleshoot some nasty bugs in Firefox. However, I've been involved in free culture projects, like Wikipedia. At one time at a reasonably influential level.
+\item [Question]:  So now you need to have another job ? I  only want to work with free software. So the main issues is: what kind of jobs can I choose to get paid and to develop free software ?
+\item [Réponse]:  Do you want to develop free software? Not many projects are monetized, but you can get roles being a sysadmin and contribute to free software.
+\item [Question]:  Yes I would like to. I don't really know what is a sysadmin, can you explain me what does a sysadmin do ?
+\item [Réponse]:  Looks after computer systems :-) server admin work normally. Basically, you need to find an itch and scratch it.
+\item [Réponse]:  My interest was LO. There is no silver bullet, I'm getting paid because there is demand for my skills and I did a lot of dedicated work and proved my skills to the other developers over a long period of time.
+\item [Question]:  So you work from home ?
+\item [Réponse]:  Yep, I live in Australia and most of the rest of the devs in the company I work for are in Europe or in the UK.
+\item [Question]:  Will you earn money when you will be working exclusively for LO ?
+\item [Réponse]:  I might do some side jobs, the job only lasts for 2 months so far.
+\item [Question]:  So you will always need to have side jobs ? In your sides jobs do you use free software ?
+\item [Réponse]:  To be honest, this is my first paid gig as a free software developer, but I suspect that this will be the case. Then again, I have a lot of freedom in this role that I can't get at a normal workplace.
+\item [Réponse]:  I can take my kids to school in the morning, do chores, no micro-managing, that sort of thing.
+\item [Question]:  Do you have to change your side jobs frequently ?
+\item [Réponse]:  Actually, I took on this role when I was made redundant. I got a good payout. Anyhow... I gotta get some coding done - hope I was helpful :-)
+\item [Question]:  You were helpful :) thank you very much ! (And sorry for my bad english)
+\item [Réponse]:  no probs :-) best of luck
+\item [Réponse]:  not at all, you were fine :-)
+
+\end{description}
+
+\subsection{Ma conclusion}
+
+
+
+\section{Le jeu vidéo et de la création d'entreprise}
+Je suis intéressé par la création de jeu vidéo libre. À cause du modèle économique du libre, il est à priori difficile de vivre de cette activité.
+\subsection{L'interview de Céline Libéral}
+\subsection{Ma conclusion}
+
+\section{L'enseignement et de la recherche}
+\subsection{L'interview d'Alain Giorgetti}
+
+\subsection{Ma conclusion}
+
 
 \chapter{Confrontation au marché}
 \section{Les besoins}
@@ -291,8 +518,10 @@ L'environnement principal d'un chercheur est un laboratoire de recherche.
 
 \chapter{Stratégie d'acquisition de compétences}
 \section{La formation}
+Se diriger vers un master orienté ???.
 \section{Les expériences}
 \subsection{Du choix des stages}
+
 
 \chapter{Stratégie d'adaptation au marché}
 \section{Secteurs}
@@ -308,7 +537,12 @@ L'environnement principal d'un chercheur est un laboratoire de recherche.
 \part{Conclusion}
 \chapter{Apport du Cursus Master en Ingénerie}
 
+
 \listoffigures{}
-\listoftables{}
+
+%\newpage
+\tableofcontents{}
+%\newpage
+
 \end{document} 
  
