@@ -1,6 +1,9 @@
 \select@language {french}
 \contentsline {part}{I\hspace {1em}Introduction}{3}
 \contentsline {chapter}{\numberline {1}Remerciements}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
 \contentsline {chapter}{\numberline {2}Guide de lecture}{5}
 \contentsline {part}{II\hspace {1em}Bilan personnel}{6}
 \contentsline {chapter}{\numberline {3}Comp\IeC {\'e}tences et savoirs}{7}
@@ -59,48 +62,49 @@
 \contentsline {subsection}{\numberline {7.2.2}Bilan}{24}
 \contentsline {paragraph}{Ce que j'ai appris}{24}
 \contentsline {subsection}{\numberline {7.2.3}L'interview de Chriswot}{24}
-\contentsline {subsection}{\numberline {7.2.4}L'interview de Chriswot (original)}{27}
-\contentsline {subsection}{\numberline {7.2.5}Bilan}{30}
-\contentsline {paragraph}{Ce que j'ai appris}{30}
-\contentsline {section}{\numberline {7.3}Le jeu vid\IeC {\'e}o et de la cr\IeC {\'e}ation d'entreprise}{30}
-\contentsline {subsection}{\numberline {7.3.1}L'interview de C\IeC {\'e}line Lib\IeC {\'e}ral}{30}
-\contentsline {subsection}{\numberline {7.3.2}Bilan}{35}
-\contentsline {paragraph}{Ce que j'ai appris}{35}
-\contentsline {section}{\numberline {7.4}L'enseignement et la recherche}{35}
-\contentsline {subsection}{\numberline {7.4.1}Rencontre avec Alain Giorgetti}{35}
+\contentsline {subsection}{\numberline {7.2.4}Bilan}{27}
+\contentsline {paragraph}{Ce que j'ai appris}{27}
+\contentsline {section}{\numberline {7.3}Le jeu vid\IeC {\'e}o et de la cr\IeC {\'e}ation d'entreprise}{27}
+\contentsline {subsection}{\numberline {7.3.1}L'interview de C\IeC {\'e}line Lib\IeC {\'e}ral}{28}
+\contentsline {subsection}{\numberline {7.3.2}Bilan}{32}
+\contentsline {paragraph}{Ce que j'ai appris}{32}
+\contentsline {section}{\numberline {7.4}L'enseignement et la recherche}{33}
+\contentsline {subsection}{\numberline {7.4.1}Rencontre avec Alain Giorgetti}{33}
+\contentsline {paragraph}{}{33}
+\contentsline {paragraph}{}{33}
+\contentsline {paragraph}{Premi\IeC {\`e}re impression sur l'environnement de travail}{33}
+\contentsline {subsubsection}{Ce qu'un chercheur fait}{33}
+\contentsline {paragraph}{L'hypersp\IeC {\'e}cialisation}{33}
+\contentsline {paragraph}{La culture}{33}
+\contentsline {paragraph}{Les financements}{34}
+\contentsline {paragraph}{L'\IeC {\'e}quipe}{34}
+\contentsline {paragraph}{Les id\IeC {\'e}es}{34}
+\contentsline {paragraph}{}{34}
+\contentsline {subsubsection}{L'environnement de travail d'un chercheur}{35}
+\contentsline {paragraph}{Les outils}{35}
+\contentsline {subparagraph}{Le syst\IeC {\`e}me d'exploitation}{35}
+\contentsline {subparagraph}{le d\IeC {\'e}veloppement}{35}
+\contentsline {subparagraph}{Proof of concept}{35}
+\contentsline {subsubsection}{La formation pour devenir chercheur}{35}
 \contentsline {paragraph}{}{35}
-\contentsline {paragraph}{}{36}
-\contentsline {paragraph}{Premi\IeC {\`e}re impression sur l'environnement de travail}{36}
-\contentsline {subsubsection}{Ce qu'un chercheur fait}{36}
-\contentsline {paragraph}{L'hypersp\IeC {\'e}cialisation}{36}
-\contentsline {paragraph}{La culture}{36}
-\contentsline {paragraph}{Les financements}{36}
-\contentsline {paragraph}{L'\IeC {\'e}quipe}{37}
-\contentsline {paragraph}{Les id\IeC {\'e}es}{37}
-\contentsline {paragraph}{}{37}
-\contentsline {subsubsection}{L'environnement de travail d'un chercheur}{37}
-\contentsline {paragraph}{Les outils}{37}
-\contentsline {subparagraph}{Le syst\IeC {\`e}me d'exploitation}{37}
-\contentsline {subparagraph}{le d\IeC {\'e}veloppement}{38}
-\contentsline {subparagraph}{Proof of concept}{38}
-\contentsline {subsubsection}{La formation pour devenir chercheur}{38}
-\contentsline {paragraph}{}{38}
-\contentsline {paragraph}{O\IeC {\`u} trouver les domaines qui m'int\IeC {\'e}resse le plus ?}{38}
-\contentsline {subparagraph}{L'intelligence artificielle dans la recherche}{38}
-\contentsline {subparagraph}{La simulation dans la recherche}{38}
-\contentsline {paragraph}{Quels stages ?}{39}
-\contentsline {subparagraph}{Le stage d'observation de L2}{39}
-\contentsline {subparagraph}{Le stage de L3 et le stage de fin d'\IeC {\'e}tude en master}{39}
-\contentsline {subsection}{\numberline {7.4.2}Bilan}{39}
-\contentsline {paragraph}{Ce que j'ai appris}{39}
-\contentsline {subparagraph}{\IeC {\c c}a me pla\IeC {\^\i }t}{39}
-\contentsline {subparagraph}{\IeC {\c c}a ne me pla\IeC {\^\i }t pas}{39}
-\contentsline {subparagraph}{le bilan}{40}
-\contentsline {section}{\numberline {7.5}Bilan du projet professionnel}{40}
-\contentsline {part}{IV\hspace {1em}Strat\IeC {\'e}gies d'action}{41}
-\contentsline {chapter}{\numberline {8}Strat\IeC {\'e}gie d'acquisition de comp\IeC {\'e}tences}{42}
-\contentsline {section}{\numberline {8.1}La formation}{42}
-\contentsline {section}{\numberline {8.2}Les exp\IeC {\'e}riences}{42}
-\contentsline {subsection}{\numberline {8.2.1}Du choix des stages}{42}
-\contentsline {part}{V\hspace {1em}Conclusion}{43}
-\contentsline {chapter}{\numberline {9}Apport du module APP et PPP}{44}
+\contentsline {paragraph}{O\IeC {\`u} trouver les domaines qui m'int\IeC {\'e}resse le plus ?}{35}
+\contentsline {subparagraph}{L'intelligence artificielle dans la recherche}{36}
+\contentsline {subparagraph}{La simulation dans la recherche}{36}
+\contentsline {paragraph}{Quels stages ?}{36}
+\contentsline {subparagraph}{Le stage d'observation de L2}{36}
+\contentsline {subparagraph}{Le stage de L3 et le stage de fin d'\IeC {\'e}tude en master}{36}
+\contentsline {subsection}{\numberline {7.4.2}Bilan}{36}
+\contentsline {paragraph}{Ce que j'ai appris}{36}
+\contentsline {subparagraph}{\IeC {\c c}a me pla\IeC {\^\i }t}{36}
+\contentsline {subparagraph}{\IeC {\c c}a ne me pla\IeC {\^\i }t pas}{37}
+\contentsline {subparagraph}{le bilan}{37}
+\contentsline {section}{\numberline {7.5}Bilan du projet professionnel}{37}
+\contentsline {part}{IV\hspace {1em}Strat\IeC {\'e}gies d'action}{38}
+\contentsline {chapter}{\numberline {8}Strat\IeC {\'e}gie d'acquisition de comp\IeC {\'e}tences}{39}
+\contentsline {section}{\numberline {8.1}La formation}{39}
+\contentsline {section}{\numberline {8.2}Les exp\IeC {\'e}riences}{39}
+\contentsline {subsection}{\numberline {8.2.1}Du choix des stages}{39}
+\contentsline {part}{V\hspace {1em}Conclusion}{40}
+\contentsline {chapter}{\numberline {9}Apport du module APP et PPP}{41}
+\contentsline {chapter}{\numberline {A}Exercice d'autoportrait}{45}
+\contentsline {chapter}{\numberline {B}Interview de Chriswot en anglais}{47}
