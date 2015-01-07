@@ -4,6 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[tight]{shorttoc}
+\usepackage{color}
 
 \author{Bérenger Ossete Gombe}
 \title{Dossier PPP}
@@ -22,7 +23,9 @@
     \bsc{#2}
   \end{flushright}
 }
-
+\newcommand{\goodPoint}[1]{\textcolor{green}{\textbf{\textit{#1}}}}
+\newcommand{\badPoint}[1]{\textcolor{red}{\textbf{\textit{#1}}}}
+\newcommand{\importantPoint}[1]{\textcolor{blue}{\textbf{\textit{#1}}}}
 %======================================================
 
 \begin{document}
@@ -65,7 +68,7 @@ Voici un premier lieu un classement de ce que j'estime être mes principaux trai
 \item [Rêveur]car j'aime suivre mon instinct et mes envies.
 \end{description}
 
-\begin{figure}[h]
+\begin{table}[h]
   \begin{tabular}{|l|c|c|}
     \hline
 
@@ -90,7 +93,7 @@ Voici un premier lieu un classement de ce que j'estime être mes principaux trai
     
   \end{tabular}\\
 \caption{Approche de mes principaux traits de personnalités}
-\end{figure}
+\end{table}
 
 
 \subsection{Motivations}
@@ -153,7 +156,7 @@ Je vais ainsi devoir accorder ces valeurs avec mon projet professionnel, ce qui 
 \section{Compétences métiers}
 \subsection{Ma formation}
 Voici une liste des diplômes\footnote{Licence d'informatique à venir} obtenu au cours de ma scolarité.
-\begin{figure}[h]
+\begin{table}[h]
 \begin{center}
 \begin{tabular}{|l|c|r|}
 \hline
@@ -168,7 +171,7 @@ Licence d'Informatique & 2016 & Université de Franche-Comté\\
 \end{tabular}
 \end{center}
 \caption{Diplomes obtenus} 
-\end{figure}
+\end{table}
 
 \subsection{Mon expérience}
 \paragraph{}
@@ -177,7 +180,7 @@ Je n'ai \textit{\textbf{aucune}} expérience professionnelle en dehors de mon st
 \paragraph{}
 Durant cette année de L2 j'ai pu participer à plusieurs reprise à des \textbf{évenements organisés par l'Université de Franche-Comté}. Ces évenements m'ont apportées des expériences de travail d'équipe. En voici un résumé.
 
-\begin{figure}[h]
+\begin{table}[h]
 \begin{tabular}{|l|c|l|}
 \hline
 \tabTitle{Expérience}  &  \tabTitle{Contexte} & \tabTitle{Technologies}\\
@@ -188,7 +191,7 @@ Club jeux-vidéo (DPS\footnotemark{})  & UFC & C++/SFML 2.1\\
 \hline
 \end{tabular}
 \caption{Expériences scolaires}
-\end{figure}
+\end{table}
 \footnotetext{Dead Pixel Society- Club de jeux vidéo de l'UFC}
 
 \chapter{Synthèse} \label{RefSyntheseBilanPerso}
@@ -234,7 +237,7 @@ Car j'aime apprendre de nouvelles choses et m'améliorer, et que je ne souhaite 
 Il s'agit ici de définir ce que je \textsc{\textbf{veux}} faire sans s'occuper de ce que je peux faire (nous nous occuperons de cela dans la construction du projet) en fonction de ce que je suis, ce que j'ai fais et ce que je sais faire.
 
 
-\begin{figure}[h]
+\begin{table}[h]
 \begin{center}
 \begin{tabular}{|l|c|c|}
   \hline
@@ -254,7 +257,7 @@ Il s'agit ici de définir ce que je \textsc{\textbf{veux}} faire sans s'occuper 
 \end{tabular}
 \end{center}
 \caption{Ce que je veux faire}
-\end{figure}
+\end{table}
 
 \footnotetext[1]{Société de Service en Ingénierie Informatique (également SS2I) }
 \footnotetext[2]{Société de Service en Logiciel Libre (également SS2L) }
@@ -311,6 +314,12 @@ Pour ces raisons, je ne connais presque rien de mes interlocuteurs: je connais u
 \paragraph{}
 Le dernier interview est le plus important: il s'agit d'une rencontre avec un enseignant-chercheur autour de la recherche. Mon projet professionnel étant plus net dans mon esprit au moment de notre rencontre, j'ai pu poser des questions préparées et pertinantes (contrairement aux précedents interview).
 
+\paragraph{}
+Voici la notation utilisée dans les interviews:
+\begin{description}
+\item [Question]: Voici la question que je pose.
+\item [Réponse]: Et voici la réponse de mon interlocuteur. Dans les réponses, je vais apprendre des choses qui seront (ou non) en phase avec mon projet professionnel. En effet, je mettrai en avant ce qui me semble \importantPoint{important}, \goodPoint{bien}, et ce qui me semble \badPoint{mauvais}.
+\end{description}
 
 
 \section{Présentations}
@@ -354,12 +363,12 @@ Deux \textbf{volontaires} sont alors intervenus: Chriswot, un contributeur de Li
 \begin{description}
 \item [Question]:  Bonjour ! Je prépare un dossier dans le cadre de mes études et j'aimerais discuter dix petites minutes avec un développeur. Je m'intéresse au libre et j'aimerais en faire mon métier mais je connais peu le domaine et j'aimerais connaître mes possibilités. Quelqu'un qui travail dans le domaine du libre pour m'éclairer ?
 \item [Réponse]:  Que veux tu savoir ?
-\item [Question]:  Comme j'aimerais faire du libre mon métier j'aimerais avoir un retour d'expérience d'un developpeur ayant fait ce parcours
-\item [Réponse]:  En fait ça dépend du contexte : tu veux te lancer à ton compte, trouver du travail ? Tu souhaites créer du logiciel libre ou contribuer ou seulement utiliser ? Aujourd'hui 90\%, au moins, des agences Web, la plupart des sociétés d'informatique, emploient du logiciel libre mais rarement exclusivement (et très rarement contribuent)
+\item [Question]:  Comme j'aimerais faire du libre mon métier j'aimerais avoir un retour d'expérience d'un développeur ayant fait ce parcours
+\item [Réponse]:  En fait ça dépend du contexte : tu veux te lancer à ton compte, trouver du travail ? Tu souhaites créer du logiciel libre ou contribuer ou seulement utiliser ? \goodPoint{Aujourd'hui 90\%, au moins, des agences Web, la plupart des sociétés d'informatique, emploient du logiciel libre} mais \badPoint{rarement exclusivement} (et très rarement contribuent)
 \item [Question]:  Utiliser c'est sûr et certain. Contribuer et créer me conviennent tous deux.
-\item [Réponse]:  Il y a des ENL (entreprise du numérique libres), parfois regroupées en clusters régionaux, qui sont sensées faire majoritairement du logiciel libre et contribuer. Le cnll\footnote{http://www.cnll.fr/} les regroupe. Il y en a dans à peu près toutes les régions. Il y a des sociétés qui sont adhérentes à l'april, à des groupes d'utilisateurs locaux qui font souvent du libre. En somme, tu peux très bien faire du développement, Web ou pas, et te faire recrutrer par ce genre de société. Il y a même un site\footnote{http://fr.lolix.org/} d'offres d'emplois spécialisée sur du logiciel libre (mais il n'est clairement pas exhaustif).
-\item [Question]:  En fait moi je m'intéresse au developpement logiciel mais je ne veux pas travailler avec des outils propriétaires par choix personnel.
-\item [Réponse]:  Honnêtement, si c'est surtout une histoire d'environnement de travail, tu peux trouver même dans des société qui ne font pas spécifiquement du libre. Faire du logiciel libre, y contribuer dans son métier est un peu plus difficile, car il y a peu de sociétés, dans la globalité, qui contribuent (alors que beaucoup utilisent). Mais si tu as compétent, il n'y a aucune raison que tu ne trouves pas dans une société spécialisée en logiciels libres: les bons développeurs restent une ressource rare, donc appréciée !
+\item [Réponse]:  Il y a des ENL (entreprise du numérique libres), parfois regroupées en clusters régionaux, qui sont sensées faire majoritairement du logiciel libre et contribuer. Le cnll\footnote{http://www.cnll.fr/} les regroupe. Il y en a dans à peu près toutes les régions. Il y a des sociétés qui sont adhérentes à l'april, à des groupes d'utilisateurs locaux qui font souvent du libre. En somme, tu peux très bien faire du développement, Web ou pas, et te faire recruter par ce genre de société. Il y a même un site\footnote{http://fr.lolix.org/} d'offres d'emplois spécialisée sur du logiciel libre (mais il n'est clairement pas exhaustif).
+\item [Question]:  En fait moi je m'intéresse au développement logiciel mais je ne veux pas travailler avec des outils propriétaires par choix personnel.
+\item [Réponse]:  Honnêtement, si c'est surtout une histoire d'environnement de travail, tu peux trouver même dans des société qui ne font pas spécifiquement du libre. Faire du logiciel libre, y contribuer dans son métier est un peu plus difficile, car \badPoint{il y a peu de sociétés, dans la globalité, qui contribuent} (alors que beaucoup utilisent). Mais si tu as compétent, il n'y a aucune raison que tu ne trouves pas dans une société spécialisée en logiciels libres: les bons développeurs restent une ressource rare, donc appréciée !
 \item [Question]:  Après moi je m'intéresse particulièrement à l'intelligence artificielle, à la logique et au jeu vidéo.
 \item [Réponse]:  Après ça dépendra notamment du lieu où tu vis, des technologies sur lesquelles tu vas te former et te spécialiser. Je connais pas très bien ces domaines, mais intuitivement je penserais que tu as plus de chances de trouver un environnement libre voire d'y contribuer en IA qu'en jeu vidéo.
 \item [Question]:  Pour mon projet professionnel j'ai plus ou moins trois gros choix: l'enseignement et/ou la recherche, l'entreprise ou la création d'activité 
@@ -388,7 +397,7 @@ Deux \textbf{volontaires} sont alors intervenus: Chriswot, un contributeur de Li
 \item [Question]:  Mais les membres actifs dans le développement sont tous bénévoles ? J'ai cru voir qu'il y avait quelques permanents.
 \item [Réponse]:  Il y a deux permanents. Ils gèrent surtout les projets, les coordonnent, font l'administratif et parlent de l'association envers le public (conférences, presse etc). Ils font un peu de technique aussi, essentiellement de l'adminisatrion système, mais les projets reposent quasi tous sur le bénévolat.
 \item [Question]:  Donc moi qui cherche un emploi du coté du developpement libre j'ai plutot interet à regarder vers les entreprises qui utilisent le libre ?
-\item [Réponse]:  Oui, aucune association n'emploie de développeur à ma connaissance, il faut aller du côté des sociétés spécialisées existantes, ou monter ta société.
+\item [Réponse]:  Oui, \importantPoint{aucune association n'emploie de développeur à ma connaissance}, il faut aller du côté des sociétés spécialisées existantes, ou monter ta société.
 \item [Question]:  Tu crois que tu pourrais me parler de ces entreprises ?
 \item [Réponse]:  Il y en des centaines, difficile d'en faire des généralités. Il y a une catégorisation qui est faite dans les docs que je viens de te citer. Le mieux pour avoir des infos reste de contacter ces fédérations d'entreprises du libre, comme la cnll. Tu es dans quel coin de la france ?
 \item [Question]:  D'accord (tes liens vont m'être très utile). Tu as ta propre activité, comment et  pourquoi as tu décidé de le faire ? (Je suis en franche-comté (donc pas grand chose ici)).
@@ -399,38 +408,42 @@ Deux \textbf{volontaires} sont alors intervenus: Chriswot, un contributeur de Li
 \item [Réponse]:  je t'en prie, bon courage
 \item [Question]:  Et merci d'avoir donné de ton temps. Bonne continuation !
 \item [Réponse]:  Merci.
-
 \end{description}
-
 \newpage
-\subsection{L'interview de Chriswot (Traduction en français)}
+\subsection{Bilan}
+\paragraph{Ce que j'ai appris}
+Premièrement, si je veux travailler dans un environnement utilisant le logiciel libre, je peux me tourner vers le web. Cependant peu d'entreprise utilise \textit{exclusivement} du libre. Les associations me paraissaient intéressante car généralement plus engagées vers le libre, mais d'après Fabien aucune association n'emploie de développeur. Cela concorde avec mes recherches sur le sujet: le développement dans les associations est quasi-uniquement assuré par des bénévoles.
+Ce que je retiens donc de cet interview est que les entreprises entièrement libre sont plutôt rare. \textbf{Le web est donc une piste intéressante}.
 
+
+\subsection{L'interview de Chriswot}
+Chriswot étant anglophone, cet interview à initialement été faite en anglais. Ceci est donc une traduction que je propose. L'originale est disponible en annexe.
 \begin{description}
 \item [Question]:  Bonjour, et merci !
 \item [Réponse]:  Que veux tu savoir ?
 \item [Question]:  Je suis un étudiant en informatique et je cherche des information au sujet du développement de logiciel libre. Je voudrais travailler dans ce domaine mais je ne connais pas les métiers qui sont en accord avec la philosophie du logiciel libre.
-\item [Réponse]:  Ça dépend - pour être payé pour faire du logiciel libre tu vas avoir besoin de trouver un job qui paye pour faire de la maintenance.
+\item [Réponse]:  Ça dépend - pour être payé pour faire du logiciel libre \importantPoint{tu vas avoir besoin de trouver un job qui te paye pour faire de la maintenance.}
 \item [Question]:  Ma première question serait: qui es tu ? Un developpeur du projet LibreOffice ? (Pourrais tu te présenter ?)
-\item [Réponse]:  Je suis un developpeur de LibreOffice. Je suis sur le point de décrocher un contrat avec Collabora. Je travail sur LibreOffice depuis environs un an. Je fais beaucoup de relecture et de refractoring. Je commence à connaitre les gens sur l'irc petit à petit.
+\item [Réponse]:  Je suis un développeur de LibreOffice. Je suis sur le point de décrocher un contrat avec Collabora. Je travail sur LibreOffice depuis environs un an. Je fais beaucoup de relecture et de refractoring. Je commence à connaitre les gens sur l'irc petit à petit.
 \item [Question]:  D'après toi, quel domaine de l'informatique est le plus concerné par le logiciel libre ?
 \item [Réponse]:  Coder et tester. C'est une vaste question ! Tu veux dire, par quel aspect des logiciels je suis intéressé ? Genre les applications, les environnements de travails, les systèmes d'exploitations, etc ?
 \item [Réponse]:  Et bien, pour l'instant je m'intéresse aux applications, mais c'est une vaste domaine. Pour l'instant je bosse sur la couche widget de LibreOffice (ça s'appelle VCL).
-\item [Question]: Peux tu m'expliquer comment est ce que tu es entré dans le developpement de logiciel libre ?
+\item [Question]: Peux tu m'expliquer comment est ce que tu es entré dans le développement de logiciel libre ?
 \item [Réponse]:  J'ai commencé par lire du code après avoir vu un article sur LibreOffice sur Hacker New.
 \item [Question]:  Et quel conseil donnerais tu à un étudiant voulant travailler sur du logiciel libre ?
-\item [Réponse]: Voici ce que j'ai fais. J'ai cherché le point d'entré de LibreOffice (dans la fonction principale). Ensuite je me suis promener danq le code en faisant parfois des petits changements après avoir compris comment utiliser les outils de travail des développeurs. Évidemment, un projet de cette envergure est long à comprendre, mais la toute première chose à faire est de récupérer le code source et réussir à travailler avec (le compiler et l'exécuter). Après je lirais toute la documentation possible et je lirais BEAUCOUP de code.  Regarde si tu n'as pas de petit changement faciles à faire (corriger une erreur typographique, changer un commentaire...). Fait ensuite en sorte d'intégrer ces changements dans les projets. Certain projets (comme LibreOffice) facilite la tâche (il utilise par exemple gerrit\footnote{Gerrit est une application Web gratuite de revue de code pour le travail en équipe. Chacun peut y lire, approuver ou rejeter les modifications d'un code source via un navigateur web. Il s'utilise avec Git qui s'occupe de poster ces changements de code.}), d'autre non. Soit prêt à écrire un récapitulatif de ce que tu as trouvé, même si tu l'utilise uniquement pour toi. Promène toi sur l'IRC et essai petit à petit de poser des questions et montre que tu travail sur l'amélioration du logiciel. Quand tu poses une question sur l'IRC, n'oublie pas de toujours expliquer que tu as bien lu la documentation et explique ce qui n'a pas été clair pour toi  (sinon tu risques de te faire doucement attaquer :-) ). Mais avant tout, soit prêt à commenter et à sortir de ta zone de confort. Et apprend à bien utiliser git aussi !
+\item [Réponse]: Voici ce que j'ai fais. J'ai cherché le point d'entré de LibreOffice (dans la fonction principale). Ensuite je me suis promener danq le code en faisant parfois des petits changements après avoir compris comment utiliser les outils de travail des développeurs. Évidemment, un projet de cette envergure est long à comprendre, mais la toute première chose à faire est de récupérer le code source et réussir à travailler avec (le compiler et l'exécuter). Après je lirais toute la documentation possible et je lirais BEAUCOUP de code.  Regarde si tu n'as pas de petit changement faciles à faire (corriger une erreur typographique, changer un commentaire...). Fait ensuite en sorte d'intégrer ces changements dans les projets. Certain projets (comme LibreOffice) facilite la tâche (il utilise par exemple gerrit\footnote{Gerrit est une application Web gratuite de revue de code pour le travail en équipe. Chacun peut y lire, approuver ou rejeter les modifications d'un code source via un navigateur web. Il s'utilise avec Git qui s'occupe de poster ces changements de code.}), d'autre non. Soit prêt à écrire un récapitulatif de ce que tu as trouvé, même si tu l'utilise uniquement pour toi. Promène toi sur l'IRC et essai petit à petit de poser des questions et montre que tu travail sur l'amélioration du logiciel. Quand tu poses une question sur l'IRC, n'oublie pas de toujours expliquer que tu as bien lu la documentation et explique ce qui n'a pas été clair pour toi  (sinon tu risques de te faire doucement attaquer :-) ). Mais avant tout, soit prêt à commenter et à \importantPoint{sortir de ta zone de confort}. Et apprend à bien utiliser git aussi !
 \item [Question]:  Que veux tu dire par ``sortir de ta zone de confort'' ?
 \item [Réponse]: Tente des trucs sur ton ordi, attends toi à faire des erreurs. Tu vas peut-être devoir travailler dans des domaines qui te sont étranger et apprendre des choses que tu ne connais absolument pas. Par exemple, je suis en train de lire toutes la documentation de l'EMF\footnote{\textsc{EFS}: L'Encrypting File System (abrégé EFS) est une fonctionnalité apparue avec la troisième version des systèmes de fichiers NTFS disponible sur Microsoft Windows 2000 et ultérieurs. Cette technologie permet d'enregistrer des fichiers chiffrés sur ce système de fichiers, ce qui protège les informations personnelles des attaques de personnes ayant un accès direct à l'ordinateur.} de microsoft pour m'habituer à travailler avec des gros documents.
-N'ai pas peur de tout casser sur ta machine: si tu as une branche du code sur git tu peux facilement revenir sur la branch master et tout recommencer.
+N'ai pas peur de tout casser sur ta machine: si tu as une branche du code sur git tu peux facilement revenir sur la branche master et tout recommencer.
 \item [Question]:  Le développement de LibreOffice est il ton activité professionnelle principale ?
-\item [Réponse]:  Ça va bientôt l'être :-) mais avant ça j'ai fais plein de petits boulots.
+\item [Réponse]:  Ça va bientôt l'être :-) mais avant ça j'ai fais \badPoint{pleins de petits boulots}.
 \item [Question]:  Dans le domaine de l'informatique ?
 \item [Réponse]:  Plus dans les IT\footnote{\textsc{IT}: Technologies de l'informations} que dans l'informatique.
 \item [Question]:  As tu travaillé avec des logiciels libres ?
 \item [Réponse]:  Je faisais de la maintenance pour des produits VMWare. Cotế logiciel libre j'ai fais quelque truc. Pas grand chose, mais j'ai aidé à régler des bug bizarres sur Firefox. J'ai également participé à des projets culturels libres comme Wikipédia.
 \item [Question]:  Donc tu as besoin d'avoir un autre travail ? Je veux travailler uniquement avec des logiciels libres. Donc la principale question est: quel métier je dois chercher si je veux être payé pour développer des logiciels libres ?
-\item [Réponse]:  Tu veux développer des logiciels libres ? Il n'y a pas beaucoup de projets financés mais tu peux essayer de devenir sysadmin et en même temps contribuer aux logiciels libres?
-\item [Question]:  Oui j'aimerais. Je ne sais pas vraiment ce qu'est un sysadmin. Peux tu m'expliquer le role que tient un sysadmin ?
+\item [Réponse]:  Tu veux développer des logiciels libres ? \badPoint{Il n'y a pas beaucoup de projets financés} mais importantPoint{tu peux essayer de devenir sysadmin} et en même temps contribuer aux logiciels libres?
+\item [Question]:  Oui j'aimerais. Je ne sais pas vraiment ce qu'est un sysadmin. Peux tu m'expliquer le rôle que tient un sysadmin ?
 \item [Réponse]:  Il s'occupe de l'administration de système :-) en gros ils doivent trouver un problème dans le système et le résoudre.
 \item [Réponse]:  J'étais intéressé par LibreOffice. Il n'y a pas de mystère: je suis payé parce que il y a une demande et que mes compétences y répondent parce que j'ai beaucoup travaillé sur ce projet et que j'ai démontrer mes capacités aux autres développeur.
 \item [Question]:  Tu travailles depuis chez toi ?
@@ -438,10 +451,10 @@ N'ai pas peur de tout casser sur ta machine: si tu as une branche du code sur gi
 \item [Question]:  Seras tu payé quand tu travailleras uniquement sur LibreOffice ?
 \item [Réponse]:  Je vais devoir avoir un métier à côté: mon travail n'excédera pas une durée de deux mois. 
 \item [Question]:  Donc tu auras toujours besoin d'avoir un travail à côté ? Dans ces travails, utilises tu des logiciels libres ?
-\item [Réponse]:  pour être honnête, je dois dire qu'il s'agit de mon premier travail rémunéré en tant que développeur sur du logiciel libre, mais je pense que oui. Mais je dois dire que j'ai beaucoup de liberté ainsi qu'avec un travail ``normal''.
+\item [Réponse]:  pour être honnête, je dois dire qu'il s'agit de mon premier travail rémunéré en tant que développeur sur du logiciel libre, mais je pense que oui. Mais je dois dire que j'ai \goodPoint{beaucoup plus de liberté ainsi qu'avec un travail ``normal''}.
 \item [Réponse]:  Je peux ammener mes enfants à l'école le matin, m'occuper de mon appart. Pas de micromanagement\footnote{\textsc{Micromanagement}: Le micromanagement est un style de management où le manager observe ou contrôle étroitement le travail de ses subordonnés ou employés. Ce type de management se caractérise par un contrôle excessif, ou donnant trop d'attention aux détails.} ou ce genre de chose.
 \item [Question]:  Dois tu changer de travail féquemment ?
-\item [Réponse]:  J'ai essayé de faire ça mais j'ai été viré\footnote{Je ne suis pas certain de la traduction: ``Actually, I took on this role when I was made redundant. I got a good payout. Anyhow... I gotta get some coding done - hope I was helpful :-)''}. J'ai été bien payé cependant. Enfin bref, je vais devoir te laisser pour aller manger un truc. J'espère avoir été util :-) !
+\item [Réponse]:  J'ai essayé de faire ça mais j'ai été viré\footnote{Je ne suis pas certain de la traduction: ``Actually, I took on this role when I was made redundant. I got a good payout. Anyhow... I gotta get some coding done - hope I was helpful :-)''}. J'ai été bien payé cependant. Enfin bref, je vais devoir te laisser pour aller manger un truc. J'espère avoir été utile :-) !
 \item [Question]:  Tu l'as été ! Merci beaucoup.
 \item [Question] Et désolé pour mon mauvais anglais.
 \item [Réponse]:  Pas de soucis, bonne chance !
@@ -450,8 +463,8 @@ N'ai pas peur de tout casser sur ta machine: si tu as une branche du code sur gi
 \end{description}
 
 
-\subsection{L'interview de Chriswot (original)}
 
+\subsection{L'interview de Chriswot (original)}
 \begin{description}
 \item [Question]:  Hi ! Thank you !
 \item [Réponse]:  What did you want to know ?
@@ -494,12 +507,15 @@ N'ai pas peur de tout casser sur ta machine: si tu as une branche du code sur gi
 
 \end{description}
 
-\subsection{Ma conclusion}
-
+\subsection{Bilan}
+\paragraph{Ce que j'ai appris}
+Pour travailler dans le libre, il faut faire de la maintenance.
+La contribution au grand projet (tel le projet LibreOffice) n'est pas rémunerer, ou alors sur une courte période: en tous cas on ne peut pas en vivre. Si on décide de contribuer, il faut alors se trouver un autre métier en parallèle.
+C'est un travail qui apporte plus de liberté qu'un boulot classique (d'après Chriswot), cependant je vois que ça apporte plein de contraines financières.
 
 
 \section{Le jeu vidéo et de la création d'entreprise}
-Je suis intéressé par la création de jeu vidéo libre. À cause du modèle économique du libre, il est à priori difficile de vivre de cette activité.
+Je suis intéressé par la création de jeu vidéo libre. À cause du modèle économique du libre, il est à priori difficile de vivre de cette activité. J'ai contacté Céline Libéral sur le réseau social Framasphère\footnote{Réseau social de Framasoft} où j'ai pu la contacter directement pour lui poser des questions et me renseigner sur son travail.
 
 
 \subsection{L'interview de Céline Libéral}
@@ -518,13 +534,13 @@ Je suis intéressé par la création de jeu vidéo libre. À cause du modèle é
 \item Désolé pour l'excès de curiosité !
 \item 
 \item [Réponse]: Pour le moment il n'y a aucun financement, on va dire qu'on vit sur mes économies réalisées quand je bossais pour des grosses entreprises françaises...
-\item On envisage le financement participatif (IndieGogo) pour les jeux à venir. Mais si les campagnes ne fonctionnent pas, on va devoir se trouver un (petit) job sur le côté.
+\item On envisage le \importantPoint{financement participatif} (IndieGogo) pour les jeux à venir. Mais si les campagnes ne fonctionnent pas, on va \badPoint{devoir se trouver un (petit) job sur le côté}.
 \item 
 \item Contrairement à ce qu'on dit la curiosité est loin d'être un vilain défaut ;-).
 \item 
 \item [Question]: Vous avez fais comment pour "formaliser" votre projet ? Je veux dire, célisoft a t-elle un status juridique ? :)
 \item 
-\item [Réponse]: Oui, en fait, actuellement, Zoé n'est pas officiellement salariée, je suis en auto-entreprise. N’hésites pas à en faire une pendant que tu es encore étudiant pour justement compléter tes revenus et voir si ton projet est viable, ça t'éviteras nos galères et surtout de voir la viabilité de ton projet avant d'être réellement sur le "marché" du travail ;-)
+\item [Réponse]: Oui, en fait, actuellement, Zoé n'est pas officiellement salariée, je suis en \importantPoint{auto-entreprise}. N’hésites pas à en faire une pendant que tu es encore étudiant pour justement compléter tes revenus et voir si ton projet est viable, ça t'éviteras nos \badPoint{galères} et surtout de voir la viabilité de ton projet avant d'être réellement sur le "marché" du travail ;-)
 \item 
 \item [Question]: Pour l'instant je suis en L2 d'info et je suis à priori parti pour faire de la recherche.
 \item Mais la création d'un studio de jeux vidéo libre m'interesse énormement. Le problème ça reste l'argent dans l'histoire: comment financer tout ça ? Avec les kickstarters et autres financements participatifs ? Ça me semble risqué quand même  
@@ -535,7 +551,7 @@ Je suis intéressé par la création de jeu vidéo libre. À cause du modèle é
 \item 
 \item [Question]: Vous avez fait comment pour créer célisoft ? J'veux dire par rapport aux démarches ? C'est compliqué ?
 \item 
-\item [Réponse]: La démarche est très simple. \\Il suffit aller sur le site de l'auto-entrepreneur, ça prends 30 minutes et attendre le courrier de l'URSSAF avec ton SIRET et tu peux commencer.
+\item [Réponse]: \goodPoint{La démarche est très simple}. \\Il suffit aller sur le site de l'auto-entrepreneur, ça prends 30 minutes et attendre le courrier de l'URSSAF avec ton SIRET et tu peux commencer.
 \item Après il y a une déclaration de revenus à envoyer auprès de l'URSSAF tous les 3 mois et un courrier au SIE tous les ans.
 \item 
 \item [Question]: "ça t'éviteras nos galères et surtout de voir la viabilité de ton projet " --> Vos galères ? C'est d'ordre financier ?
@@ -571,7 +587,7 @@ Je suis intéressé par la création de jeu vidéo libre. À cause du modèle é
 \item 
 \item [Question]: C'est intéressant ça ! Ça marche bien ? Je veux dire, là je viens de le payer pour un prix de 0€ pour voir si ça marchait: et ça marche. Donc les gens mettent de l'argent ?
 \item 
-\item [Réponse]: Pour les jeux à venir ce sera plus une liste déroulante de prix car justement le prix 100\% libre, ça ne marche pas en ce qui nous concerne :-/
+\item [Réponse]: Pour les jeux à venir ce sera plus une liste déroulante de prix car justement \badPoint{le prix 100\% libre, ça ne marche pas} en ce qui nous concerne :-/
 \item 
 \item [Question]: C'est un principe intéressant.
 \item Comment faites vous pour travailler à deux ? Vous utilisez des outils comme git/svn ?
@@ -581,7 +597,7 @@ Je suis intéressé par la création de jeu vidéo libre. À cause du modèle é
 \item [Question]: Si ça ne fonctionne pas vous savez ce que vous allez faire ?
 \item Et si ça fonctionne bien ? :)
 \item 
-\item [Réponse]: Si ça ne fonctionne pas, il y a toujours moyen de trouver quelque chose pour un peu d'argent en informatique comme dans d'autres domaines, on n'a pas de gros besoins financiers non plus. Me concernant des projets open source pourraient avoir besoin de fonctionnalités contre rémunération, il y a des sites qui recensent ces besoins.
+\item [Réponse]: Si ça ne fonctionne pas, \goodPoint{il y a toujours moyen de trouver quelque chose pour un peu d'argent en informatique} comme dans d'autres domaines, on n'a pas de gros besoins financiers non plus. Me concernant des projets open source pourraient avoir besoin de fonctionnalités contre rémunération, il y a des sites qui recensent ces besoins.
 \item Et si ça marche, on continuera et on s'orientera en plus sur la formation (livre / sites ....)
 \item 
 \item [Question]: Pour les sites dont tu parles tu aurais des liens ? Ça m'intéresse pas mal !
@@ -597,7 +613,10 @@ Je suis intéressé par la création de jeu vidéo libre. À cause du modèle é
 \item [Réponse]: Ok, merci :)
 
 \end{description}
-\subsection{Ma conclusion}
+\subsection{Bilan}
+\paragraph{Ce que j'ai appris}
+Il s'agit d'une entreprise difficile que de se lancer à son propre compte en auto-entreprenariat pour faire du jeu vidéo libre ! D'après mon interlocutrice, la création de l'entreprise n'est pas une démarche très compliqué, ce qui est déjà un bon point. Cependant faire du jeu vidéo libre implique un mode de financement différent par rapport au jeu vidéo propriétaire. Financement participatif et boulot alternatif semblent être nécessaire pour s'en sortir financièrement parlant.
+Je suis intéressé par le jeu vidéo, mais je pense \textbf{pratiquer la création de jeu vidéo en temps que loisir} et ce en dehors de mon activité professionnelle.
 
 \section{L'enseignement et la recherche}
 \subsection{Rencontre avec Alain Giorgetti}
@@ -610,7 +629,7 @@ Du fait de la nature de l'entretien et n'ayant pas utilisé de dispositif d'enre
 \paragraph{Première impression sur l'environnement de travail}
 J'entre dans la petite salle qui fait office de bureau à Alain Giorgetti. Une table, une armoire, un grand bureau, trois ordinateurs et un tableau velleda. L'environnement de travail me plaît: il est simple mais il y a tout ce qu'il faut pour travailler. Un bureau, un ordinateur et un tableau. Celui-ci est d'ailleurs rempli de schémas que je ne comprends pas. Sur toutes les surfaces sont posées des piles de feuilles et des copies doubles.
 
-\subsubsection{Ce qu'un chercheur fait} La première question que je pose à A. Giorgetti concerne les tâches quotidiennes d'un chercheur. Il m'explique alors qu'un chercheur ne passe pas sa journée avec une feuille blanche et un stylo à la recherche d'idées. Il estime d'ailleurs qu'il ne passe pas plus de 5\% de son temps à le faire.
+\subsubsection{Ce qu'un chercheur fait} La première question que je pose à A. Giorgetti concerne les tâches quotidiennes d'un chercheur. Il m'explique alors qu'un chercheur ne passe pas sa journée avec une feuille blanche et un stylo à la recherche d'idées. Il estime d'ailleurs qu'il ne passe \badPoint{pas plus de 5\% de son temps} à le faire.
 
 \paragraph{L'hyperspécialisation}
 Du fait de la concurrence entre chercheurs, il est important pour un chercheur d'être spécialisé dans un domaine. Alain Giorgetti parle même d'hyperspécialité lorsqu'il évoque ce phénomène. En effet, en étant spécialisé de la sorte, un chercheur devient une référence dans son domaine au niveau régional (voir nationnal).
@@ -622,7 +641,7 @@ De plus, afin d'élargir sa culture, une des activités du chercheur est la lect
 
 
 \paragraph{Les financements}
-En premier lieu, le chercheur doit trouver un financement pour ses projets. Pour se faire, il doit déjà écrire un dossier de candidature complet décrivant le projet. Dans ce dossier il explique et détail certains points:
+En premier lieu, le chercheur doit \badPoint{trouver un financement} pour ses projets. Pour se faire, il doit déjà écrire un dossier de candidature complet décrivant le projet. Dans ce dossier il explique et détail certains points:
 \begin{itemize}
 \item une description du projet
 \item le planning du projet
@@ -630,19 +649,19 @@ En premier lieu, le chercheur doit trouver un financement pour ses projets. Pour
 \item ce qui a déjà été fait dans le domaine
 \end{itemize}
 De plus, il doit également trouver un financement pour les thèses des doctorants qu'il encadre.
-La recherche de financement apparait alors comme une part importante du travail de chercheur.
+La recherche de financement apparait alors comme \badPoint{une part importante du travail de chercheur}.
 
 
 \paragraph{L'équipe}
 Le chercheur fait d'abord partie d'une équipe. Ainsi, Alain Giorgetti lui fait partie de l'équipe de recherche VESONTIO. L'équipe est importante pour le chercheur: les idées et les projets sont des travaux collectifs. Ainsi, le chercheur doit participer à des réunions d'équipe afn de savoir qui fait quoi, et comment s'organiser dans les projets.
 
 \paragraph{Les idées}
-Alain Giorgetti m'explique alors que dans la recherche, il n'y pas beaucoup d'espace pour développer ses idées. En effet, le chercheur passe beaucoup de temps à développer \textit{une} idée au détriment des autres.
-De plus, il est difficile de trouver des idées qui soit à la fois ambitieuse (maise pas trop) et réalisable. La plupart du temps, les idées s'avèrent trop ou pas assez ambitieuse ou alors tout simplement mauvaise. Au final, un projet arrive àson terme généralement grâce à une association de bonnes idées, et non grâce à une seul et même idée géniale (ça arrive, mais c'est relativement rare).
-On voit alors l'importance du travail d'équipe dans la recherche.
+Alain Giorgetti m'explique alors que dans la recherche, il n'y \badPoint{pas beaucoup d'espace pour développer ses idées}. En effet, le chercheur passe beaucoup de temps à développer \textit{une} idée au détriment des autres.
+De plus, il est difficile de trouver des idées qui soit à la fois ambitieuse (maise pas trop) et réalisable. La plupart du temps, les idées s'avèrent trop ou pas assez ambitieuse ou alors tout simplement mauvaise. Au final, un projet arrive à son terme généralement grâce à une association de bonnes idées, et non grâce à une seul et même idée géniale (ça arrive, mais c'est relativement rare).
+On voit alors l'\importantPoint{importance du travail d'équipe} dans la recherche.
 
 \paragraph{}
-Alain Giorgetti conclu en décrivant la recherche comme un métier passionant à temps plein où il est nécessaire d'être méthodique et motivé. En effet, il est possible de passer de l'euphorie au découragement lorsqu'un projet n'aboutit pas ou lorsqu'une idée se révèle être mauvaise.
+Alain Giorgetti conclu en décrivant la recherche comme \goodPoint{un métier passionant} à temps plein où il est nécessaire d'\importantPoint{être méthodique et motivé}. En effet, il est possible de passer de l'euphorie au découragement lorsqu'un projet n'aboutit pas ou lorsqu'une idée se révèle être mauvaise.
 
 
 \subsubsection{L'environnement de travail d'un chercheur}
@@ -650,49 +669,79 @@ Alain Giorgetti conclu en décrivant la recherche comme un métier passionant à
 Les chercheurs du département DISC\footnote{\textsc{DISC}: Département Informatique des Systèmes Complexes} dispose du mésocentre auquel ils peuvent accéder à distance depuis leurs bureaux.
 
 \subparagraph{Le système d'exploitation}
-Les chercheurs utilisent pour la plupart GNU/Linux. Cela s'explique pour des raisons de simplicités. De plus beaucoup de laboratoires distribuent leurs outils unqieuemnt sous ce système. Ces contraintes misent de côté, les chercheurs sont libre de choisir leur système d'exploitation.
+\importantPoint{Les chercheurs utilisent pour la plupart GNU/Linux}. Cela s'explique pour des raisons de simplicités. De plus beaucoup de laboratoires distribuent leurs outils uniquement sous ce système. Ces contraintes misent de côté, les chercheurs sont \goodPoint{libre de choisir leur système d'exploitation}.
 
-\subparagraph{le developpement}
-Alain Giorgetti dit utiliser le langage Java. Cependant il n'y est pas contraint. En effet, l'utilisation d'un langage plutôt qu'un autre est déterminé par la spécialité de l'équipe et par l'influence donnée par l'enseignement dans l'établissement. Il utilise également un peu le Python ainsi que le C et le Caml.
+\subparagraph{le développement}
+Alain Giorgetti dit utiliser le langage Java. Cependant il n'y est \goodPoint{pas contraint}. En effet, l'utilisation d'un langage plutôt qu'un autre est déterminé par la spécialité de l'équipe et par l'influence donnée par l'enseignement dans l'établissement. Il utilise également un peu le Python ainsi que le C et le Caml.
 Pour le développement, il choisit avant tout un paradigme, celui-ci permettant de déterminer quel langage choisir.
 
 \subparagraph{Proof of concept}
-Afin d'illustrer leur projet et de montrer les résultats, les chercheurs doivent parfois développer un logiciel implémentant leurs travaux. Ce logiciel est un prototype appelé ``proof of concept''. Ces logiciels sont souvent pas (ou peu) maintenu car maintenir un logiciel n'est ni nouveau, ni innovant et n'est donc pas un projet de recherche. Ces logiciels sont généralement développé sous la licence que les outils de développements imposent.
+Afin d'illustrer leur projet et de montrer les résultats, les chercheurs doivent parfois développer un logiciel implémentant leurs travaux. Ce logiciel est un prototype appelé ``proof of concept''. Ces logiciels sont souvent \badPoint{pas (ou peu) maintenues} car maintenir un logiciel n'est ni nouveau, ni innovant et n'est donc pas un projet de recherche. Ces logiciels sont généralement développé \importantPoint{sous la licence que les outils de développements imposent}.
 
+\subsubsection{La formation pour devenir chercheur}
+\paragraph{}
+Le parcours pour devenir chercheur est le suivant:
+tout commence par le choix d'un master recherche. Pendant ce master on a un mémoire de master à faire à l'issue d'un stage en laboratoire.
+Après le master, on commence un doctorat en 3 ans durant lesquels on rédige une thèse. Pour la thèse, le doctorant choisi son domaine mais pas nécessairement son sujet.
 
-\subsection{Ma conclusion}
+\paragraph{Où trouver les domaines qui m'intéresse le plus ?}
+Étant intéressé par l'intelligence artificielle et la simulation, j'ai profité de cette rencontre avec Alain Giorgetti pour me renseigner sur ces domaines de l'informatique dans la recherche.
 
+\subparagraph{L'intelligence artificielle dans la recherche}
+Étant intéressé par l'intelligence artificielle, j'ai demandé à Alain Giorgetti ce qu'il en retournait de la recherche en IA. Il m'a alors expliqué que cette branche de la recherche était \badPoint{populaire dans les années 80 et 90} mais qu'aujourd'hui elle était subdivisée en plusieurs domaines de recherche. Si je veux faire de la recherche dans l'IA, je peux regarder du côté des réseaux de neurones, de la méta-heuristique, des sciences cognitives et de la programmation agent. 
 
-\chapter{Confrontation au marché}
-\section{Les besoins}
-\section{Les profils recherchés}
-\section{Mes atouts}
+\subparagraph{La simulation dans la recherche}
+En plus de l'IA, je m'intéresse beaucoup à tout ce qui touche la simulation (que ce soit la simulation routière, la météo ou alors la simulation de l'écosystème d'un vers-de-terre dans un champs). J'ai appris que la simulation n'était pas une fin en soit, mais un moyen: en effet, \importantPoint{la simulation est un outil pour les chercheurs}. Par exemple pour tester un système de capteur dans une forêt, il est bien plus simple et bien moins coûteux de le faire faire par un ordinateur par simulation qu'en posant véritablement les capteurs dans la forêt. La simulation est donc \goodPoint{présente un peu partout dans la recherche}.
 
+\paragraph{Quels stages ?}
+Afin de coller au mieux à un projet professionnel lié à la recherche, je me suis demandé vers qui me diriger pour mes trois stages à venir.
+\subparagraph{Le stage d'observation de L2}
+Ce stage est juste un stage d'immersion en entreprise: il n'est ici pas question de faire un stage en laboratoire. Afin d'être au plus proche de la recherche, Alain Gioregetti m'a suggéré d'aller voir du côté des \importantPoint{entreprise innovantes et autres start-up}. Il me conseil par ailleurs de jouer la carte de l'ouverture dans ma recherche de stage: il s'agit d'un stage de découverte, ce qui implique qu'il doit être assez général.
+\subparagraph{Le stage de L3 et le stage de fin d'étude en master}
+Pour ces stages la questions ne se pose même pas: pour une formation vers la recherche, le stage se déroule obligatoirement dans un laboratoire.
+
+\subsection{Bilan}
+\paragraph{Ce que j'ai appris}
+\subparagraph{ça me plaît}
+L'environnement de travail me plaît, l'ambiance également: dans le principe, l'activité de recherche me plaît beaucoup. L'aspect travail d'équipe autour d'un projet est intéressant et correspond à la vision du métier que j'avais.
+\subparagraph{ça ne me plaît pas}
+Cependant, il y a tout un pan du métier de chercheur que je ne connaissais pas, et qui me déplaît. Je parle de la recherche de financement: c'est une tâche qui semble contraignante et limitante. De plus, il semblerait que la recherche contraint les chercheurs à toujours trouver du nouveau. C'est une bonne chose, mais ça implique aussi que dans la recherche on n'approfondie pas certaines idées selon qu'elles ne soient pas (assez) novatrices ou selon le temps qu'on dispose (abandon d'idées, abandon d'outils développés).
+
+\subparagraph{le bilan}
+Suite à cet interview, je suis plutôt partagé sur le métier de chercheur.
+Surtout que ce métier s'exerce souvent en couple avec l'enseignement. J'apprécie l'enseignement, mais diviser l'activité de recherche par deux (voir plus) met encore plus en avant les contraintes que j'ai décris plus haut.
+Au final, je me rends compte que \textbf{j'a idéalisé le métier de chercheur} et j'ai oublié les contraintes innérantes au métier.
+
+%\chapter{Confrontation au marché}
+%\section{Les besoins}
+%\section{Les profils recherchés}
+%\section{Mes atouts}
+\section{Bilan du projet professionnel}
+Les différents interview que j'ai réalisé m'ont permient de mieux cerner les différents domaines qui m'intéressent.
 \part{Stratégies d'action}
 
 \chapter{Stratégie d'acquisition de compétences}
 \section{La formation}
-Se diriger vers un master orienté ???.
+Je vais continuer et finir ma licence et faire ma première année de master.
+Cela me permettra de laisser mûrir mon projet professionnel et me laissera le temps de découvrir d'autres domaines de l'informatique, d'autres formations etc.\\
+En parallèle je vais essayer de contribuer à un projet de jeux vidéo libre: cela me permettra d'acquérir une expérience de développement collaboratif.
 \section{Les expériences}
 \subsection{Du choix des stages}
-
-
-\chapter{Stratégie d'adaptation au marché}
-\section{Secteurs}
-\section{Entreprises}
-
-\chapter{Stratégie de communication}
-\section{Les réseaux professionnels}
-\section{Recherche de stages et d'emplois}
-\subsection{Lettre de motivation}
-\subsection{CV}
-\subsection{Entretiens}
+Comme Alain Giorgetti me l'a suggérer, je compte me diriger vers une start-up.
+Parmi les entreprises, Covalia a retenue mon attention: elle se situe à Besançon\footnote{Ce qui est important dans la mesure où je n'ai pas d'autre moyen de locomotion que les transports en commun.} et est issue de recherche du département LIFC\footnote{\textsc{LIFC}: Laboratoire d'Informatique de Franche-Comté.}. C'est donc vers cette entreprise que je vais diriger mon premier stage.
+Ce projet de stage me semble abordable et l'entreprise paraît ouverte aux demandes de stage: ``Nous recrutons essentiellement des ingénieurs et des stages sont régulièrement à pourvoir.''\footnote{issu du site de Covalia}
+%\chapter{Stratégie de communication}
+%\section{Les réseaux professionnels}
+%\section{Recherche de stages et d'emplois}
+%\subsection{Lettre de motivation}
+%\subsection{CV}
+%\subsection{Entretiens}
 
 \part{Conclusion}
-\chapter{Apport du Cursus Master en Ingénerie}
+\chapter{Apport du module APP et PPP}
+Ce dossier m'a permit de mieux appréhender l'établissement de mon projet professionnel et m'a fait réfléchir autant sur ce que je veux faire que sur mes possibilités.
 
-
-\listoffigures{}
+\listoftables{}
 
 %\newpage
 \tableofcontents{}
