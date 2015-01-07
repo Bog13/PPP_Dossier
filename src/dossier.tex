@@ -7,6 +7,7 @@
 \usepackage{color}
 \usepackage[final]{pdfpages}
 
+
 \author{Bérenger Ossete Gombe}
 \title{Dossier PPP}
 
@@ -14,7 +15,7 @@
 %\newcommand{\tabTitle}[1]{\multicolumn{1}{|c|}{\textsc{#1}} }
 \newcommand{\tabTitle}[1]{\hfill{} \textsc{#1} \hfill{} }
 \newcommand{\sommaire}{\shorttoc{Sommaire}{1}}
-\newcommand{\citation}[2]
+\newcommand{\bogCitation}[2]
 {
   \begin{quote}
     ``#1''
@@ -279,7 +280,7 @@ Il s'agit ici de définir ce que je \textsc{\textbf{veux}} faire sans s'occuper 
 
 \item [Les SSII] Intéressant car on change souvent de client ce qui permet de varier son travail. Cependant travailler pour un SS2I me forcerait potentiellement à devoir travailler avec des outils non-libre et pour des sociétés qui pourraient ne pas être en phase avec mes valeurs.
 
-\item [Les SSLL] Même intêret que pour les SS2I, les éventuels conflits de valeurs en moins. Ces sociétés sont relativements rare\footnote{Annuaire des SSLL: http://www.linux-france.org/article/pro/annuaire/}, ce qui m'obligerait à me déplacer.
+\item [Les SSLL] Même intêret que pour les SS2I, les éventuels conflits de valeurs en moins. Ces sociétés sont relativements rare\cite{annuaire_ssll}, ce qui m'obligerait à me déplacer.
  
 \item [Création d'activité] Ça me semble très intéressant mais également très risqué. Cependant je pense qu'il y a des choses à faire du coté logiciel libre.
 
@@ -375,7 +376,7 @@ Deux \textbf{volontaires} sont alors intervenus: Chriswot, un contributeur de Li
 \item [Question]:  Comme j'aimerais faire du libre mon métier j'aimerais avoir un retour d'expérience d'un développeur ayant fait ce parcours
 \item [Réponse]:  En fait ça dépend du contexte : tu veux te lancer à ton compte, trouver du travail ? Tu souhaites créer du logiciel libre ou contribuer ou seulement utiliser ? \goodPoint{Aujourd'hui 90\%, au moins, des agences Web, la plupart des sociétés d'informatique, emploient du logiciel libre} mais \badPoint{rarement exclusivement} (et très rarement contribuent)
 \item [Question]:  Utiliser c'est sûr et certain. Contribuer et créer me conviennent tous deux.
-\item [Réponse]:  Il y a des ENL (entreprise du numérique libres), parfois regroupées en clusters régionaux, qui sont sensées faire majoritairement du logiciel libre et contribuer. Le cnll\footnote{http://www.cnll.fr/} les regroupe. Il y en a dans à peu près toutes les régions. Il y a des sociétés qui sont adhérentes à l'april, à des groupes d'utilisateurs locaux qui font souvent du libre. En somme, tu peux très bien faire du développement, Web ou pas, et te faire recruter par ce genre de société. Il y a même un site\footnote{http://fr.lolix.org/} d'offres d'emplois spécialisée sur du logiciel libre (mais il n'est clairement pas exhaustif).
+\item [Réponse]:  Il y a des ENL (entreprise du numérique libres), parfois regroupées en clusters régionaux, qui sont sensées faire majoritairement du logiciel libre et contribuer. Le cnll\cite{cnll} les regroupe. Il y en a dans à peu près toutes les régions. Il y a des sociétés qui sont adhérentes à l'april, à des groupes d'utilisateurs locaux qui font souvent du libre. En somme, tu peux très bien faire du développement, Web ou pas, et te faire recruter par ce genre de société. Il y a même un site\cite{lolix} d'offres d'emplois spécialisée sur du logiciel libre (mais il n'est clairement pas exhaustif).
 \item [Question]:  En fait moi je m'intéresse au développement logiciel mais je ne veux pas travailler avec des outils propriétaires par choix personnel.
 \item [Réponse]:  Honnêtement, si c'est surtout une histoire d'environnement de travail, tu peux trouver même dans des société qui ne font pas spécifiquement du libre. Faire du logiciel libre, y contribuer dans son métier est un peu plus difficile, car \badPoint{il y a peu de sociétés, dans la globalité, qui contribuent} (alors que beaucoup utilisent). Mais si tu as compétent, il n'y a aucune raison que tu ne trouves pas dans une société spécialisée en logiciels libres: les bons développeurs restent une ressource rare, donc appréciée !
 \item [Question]:  Après moi je m'intéresse particulièrement à l'intelligence artificielle, à la logique et au jeu vidéo.
@@ -391,8 +392,7 @@ Deux \textbf{volontaires} sont alors intervenus: Chriswot, un contributeur de Li
 
 \item [Réponse]:  Oui, tu peux, mais je n'ai aucune prétention d'être expert sur le sujet.  Fabien, je suis entrepreneur-salarié dans une coopérative d'activités et d'emploi (j'ai ma propre activité, comme si j'étais à mon compte)
 \item [Question]:  Une coopérative d'activités ?
-\item [Réponse]:  Oui, voir:
-\item [lien] http://www.apce.com/pid648/cooperatives-activites.html.
+\item [Réponse]:  Oui, voir apce\cite{apce}
 \item [Question]:  Je me rends compte que je tutoie depuis le début, ça ne gène pas ? (Désolé, sur internet j'ai l'habitude de tutoyer)
 \item [Réponse]:  Non, dans le libre, on se tutoie tous ;)
 \item [Question]:  Tu joues un rôle dans framasoft ?
@@ -410,7 +410,7 @@ Deux \textbf{volontaires} sont alors intervenus: Chriswot, un contributeur de Li
 \item [Question]:  Tu crois que tu pourrais me parler de ces entreprises ?
 \item [Réponse]:  Il y en des centaines, difficile d'en faire des généralités. Il y a une catégorisation qui est faite dans les docs que je viens de te citer. Le mieux pour avoir des infos reste de contacter ces fédérations d'entreprises du libre, comme la cnll. Tu es dans quel coin de la france ?
 \item [Question]:  D'accord (tes liens vont m'être très utile). Tu as ta propre activité, comment et  pourquoi as tu décidé de le faire ? (Je suis en franche-comté (donc pas grand chose ici)).
-\item [Réponse]:  Il y a une étude\footnote{http://www.cnll.fr/news/resultats-etude-2014/} qui va t'intéresser. J'ai décidé de créer mon activité parce que je voulais travailler sur du logiciel libre, pour des associations et être en accord avec mes valeurs. Je ne suis pas sûr que mon parcours soit hyper pertinent mais j'ai encore un lien\footnote{https://linuxfr.org/users/lebouquetin/news} pour toi :)
+\item [Réponse]:  Il y a une étude\footnote{http://www.cnll.fr/news/resultats-etude-2014/} qui va t'intéresser. J'ai décidé de créer mon activité parce que je voulais travailler sur du logiciel libre, pour des associations et être en accord avec mes valeurs. Je ne suis pas sûr que mon parcours soit hyper pertinent mais j'ai encore un lien\cite{linuxfr_new} pour toi :)
 \item [Question]:  Ton parcours peut m'intéresser car je pars du même stade: l'envie de travailler sur du logiciel libre et d'être en accord avec mes valeurs !
 \item [Réponse]:  Il a fait une série de dépêches sur linuxfr au sujet de vivre du logiciel libre et a interviewé 5 ou 6 entrepreneur du libres qui se sont lancés. Je vais devoir aller manger un bout en revanche, mais n'hésite pas
 \item [Question]:  Merci beaucoup pour tout tes liens et pour avoir partagé ton expérience avec moi !
@@ -570,7 +570,7 @@ Je suis intéressé par la création de jeu vidéo libre. À cause du modèle é
 \item 
 \item [Question]: Pour les sites dont tu parles tu aurais des liens ? Ça m'intéresse pas mal !
 \item 
-\item [Réponse]: Le plus connu est BountySource\footnote{https://www.bountysource.com/}, il y a aussi FossFactory\footnote{http://www.fossfactory.org/} et probablement d'autres (ne pas hésiter à traîner sur les github des projets comme Diaspora également).
+\item [Réponse]: Le plus connu est BountySource\cite{bountySource}, il y a aussi FossFactory\cite{fossfactory} et probablement d'autres (ne pas hésiter à traîner sur les github des projets comme Diaspora également).
 \item 
 \item [Question]: Merci bien :)
 \item Je vais arrêter d'embêter avec mes questions  
@@ -765,5 +765,20 @@ Ce dossier m'a permit de mieux appréhender l'établissement de mon projet profe
 \end{description}
 
 
+%%%%%%%%BIBLIO-WEBOGRAPHIE
+\renewcommand{\bibname}{Webographie} 
+
+\begin{thebibliography}{12}
+\bibitem{annuaire_ssll} http://www.linux-france.org/article/pro/annuaire/
+\bibitem{cnll} http://www.cnll.fr/
+\bibitem{lolix} http://fr.lolix.org/
+\bibitem{apce} http://www.apce.com/pid648/cooperatives-activites.html
+\bibitem{cnll_etude} http://www.cnll.fr/news/resultats-etude-2014/
+\bibitem{linuxfr_new} https://linuxfr.org/users/lebouquetin/news
+\bibitem{bountySource} https://www.bountysource.com/
+\bibitem{fossFactory} http://www.fossfactory.org/
+\end{thebibliography}
+
 \end{document} 
+ 
  
