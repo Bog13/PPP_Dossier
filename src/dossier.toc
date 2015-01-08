@@ -101,8 +101,8 @@
 \contentsline {subparagraph}{\IeC {\c c}a ne me pla\IeC {\^\i }t pas}{37}
 \contentsline {subparagraph}{le bilan}{37}
 \contentsline {section}{\numberline {7.5}Bilan du projet professionnel}{37}
-\contentsline {part}{IV\hspace {1em}Strat\IeC {\'e}gies d'action}{38}
-\contentsline {chapter}{\numberline {8}Strat\IeC {\'e}gie d'acquisition de comp\IeC {\'e}tences}{39}
+\contentsline {part}{IV\hspace {1em}Strat\IeC {\'e}gies d'actions}{38}
+\contentsline {chapter}{\numberline {8}Strat\IeC {\'e}gies d'acquisitions de comp\IeC {\'e}tences}{39}
 \contentsline {section}{\numberline {8.1}La formation}{39}
 \contentsline {section}{\numberline {8.2}Les exp\IeC {\'e}riences}{39}
 \contentsline {subsection}{\numberline {8.2.1}Du choix des stages}{39}
